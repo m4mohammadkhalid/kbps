@@ -1,11 +1,11 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
-
+import Home from './Home';
 function App() {
   return (
       <>
         <Header />
-        <div style={{textAlign:"center"}}><h1>KHALID ALI</h1></div>
+        <Home />
         <Footer />
       </>
   );
