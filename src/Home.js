@@ -9,7 +9,7 @@ const Home = () => {
             <Helmet>
                 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="assets/js/scriptt.js"></script>
             </Helmet>
-            <div className="news_ticker bg-warning">
+            {/* <div className="news_ticker bg-warning">
                 <div className="container">
                     <marquee behavior="scroll" direction="left" onMouseOver="this.stop();" onMouseOut="this.start();" >
                         <a href="!#" target="_blank">Universities the winners if Labor assumes government</a> ||
@@ -21,7 +21,7 @@ const Home = () => {
                         <a href="!#" target="_blank">Creating inclusive curricula in higher education</a>
                     </marquee>
                 </div>
-            </div>
+            </div> */}
             {/* START SECTION BANNER */}
             <section className="banner_section p-0 full_screen">
                 <div className="swiper-container main-slider loading">

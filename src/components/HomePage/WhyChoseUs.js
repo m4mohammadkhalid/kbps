@@ -4,7 +4,7 @@ import WhyComponent from './WhyComponent'
 
 const WhyChose=[
     {
-            name:"Books Library",
+            name:"Books 1 Library",
             Disc:"If you are going to use a passage of anything embarrassing hidden in the middle of text"
     },
     {
