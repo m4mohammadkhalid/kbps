@@ -1,29 +1,27 @@
 import React from 'react'
 import {Helmet} from "react-helmet";
 import './App.css'
+import WhyChoseUs from './components/HomePage/WhyChoseUs'
 const Home = () => {
     return (
 
         <>
-        <Helmet>
-                <meta charSet="utf-8" />
-                <title>My Title</title>
-                
+            <Helmet>
                 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="assets/js/scriptt.js"></script>
             </Helmet>
-            {/* <div className="news_ticker bg-warning">
+            <div className="news_ticker bg-warning">
                 <div className="container">
-                    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" >
+                    <marquee behavior="scroll" direction="left" onMouseOver="this.stop();" onMouseOut="this.start();" >
                         <a href="!#" target="_blank">Universities the winners if Labor assumes government</a> ||
-              <a href="!#" target="_blank">Overseas students are driving rapid population growth</a> ||
-              <a href="!#" target="_blank">Admission for Ph.D. Programme 2019-20</a> ||
-              <a href="!#" target="_blank">Application form for Provisional Registration for Ph.D</a> ||
-              <a href="!#" target="_blank">Graduates need second degree to become a high earner</a> ||
-              <a href="!#" target="_blank">Eduglobal Portal for students seeking Education Loan</a> ||
-              <a href="!#" target="_blank">Creating inclusive curricula in higher education</a>
+                        <a href="!#" target="_blank">Overseas students are driving rapid population growth</a> ||
+                        <a href="!#" target="_blank">Admission for Ph.D. Programme 2019-20</a> ||
+                        <a href="!#" target="_blank">Application form for Provisional Registration for Ph.D</a> ||
+                        <a href="!#" target="_blank">Graduates need second degree to become a high earner</a> ||
+                        <a href="!#" target="_blank">Eduglobal Portal for students seeking Education Loan</a> ||
+                        <a href="!#" target="_blank">Creating inclusive curricula in higher education</a>
                     </marquee>
                 </div>
-            </div> */}
+            </div>
             {/* START SECTION BANNER */}
             <section className="banner_section p-0 full_screen">
                 <div className="swiper-container main-slider loading">
@@ -105,8 +103,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="swiper-slide">
-                            <figure className="slide-bgimg" style={{ backgroundImage: 'url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk)' }}>
-                                <img alt="khalid" src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk" className="entity-img" />
+                            <figure className="slide-bgimg" style={{ backgroundImage: 'url(https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg)' }}>
+                                <img alt="khalid" src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg" className="entity-img" />
                             </figure>
                             <div className="content">
                                 <p className="title">Trevor	Copeland</p>
@@ -183,88 +181,10 @@ const Home = () => {
                 </div>
             </section>
             {/* START SECTION FEATURE */}
-            <section className="small_pb">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-6 col-lg-8">
-                            <div className="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
-                                <div className="heading_s1 text-center">
-                                    <h2>Why Choose Us</h2>
-                                </div>
-                                <p>If you are going to use a passage of you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="icon_box icon_box_style1 animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                                <div className="box_icon mb-3">
-                                    <i className="fa fa-book text_default" />
-                                </div>
-                                <div className="intro_desc">
-                                    <h5>Books &amp; Library</h5>
-                                    <p>If you are going to use a passage of anything embarrassing hidden in the middle of text</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="icon_box icon_box_style1 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
-                                <div className="box_icon mb-3">
-                                    <i className="fa fa-globe text_default" />
-                                </div>
-                                <div className="intro_desc">
-                                    <h5>Learn Courses Online</h5>
-                                    <p>If you are going to use a passage of anything embarrassing hidden in the middle of text</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="icon_box icon_box_style1 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-                                <div className="box_icon mb-3">
-                                    <i className="fa fa-user-tie text_default" />
-                                </div>
-                                <div className="intro_desc">
-                                    <h5>Expert Instructors</h5>
-                                    <p>If you are going to use passage of anything embarrassing hidden in the middle of text</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="icon_box icon_box_style1 animation" data-animation="fadeInUp" data-animation-delay="0.05s">
-                                <div className="box_icon mb-3">
-                                    <i className="fa fa-child text_default" />
-                                </div>
-                                <div className="intro_desc">
-                                    <h5>Kids Education</h5>
-                                    <p>If you are going to use passage of anything embarrassing hidden in the middle of text</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="icon_box icon_box_style1 animation" data-animation="fadeInUp" data-animation-delay="0.06s">
-                                <div className="box_icon mb-3">
-                                    <i className="fa fa-headphones-alt text_default" />
-                                </div>
-                                <div className="intro_desc">
-                                    <h5>music Programs</h5>
-                                    <p>If you are going to use passage of anything embarrassing hidden in the middle of text</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="icon_box icon_box_style1 animation" data-animation="fadeInUp" data-animation-delay="0.07s">
-                                <div className="box_icon mb-3">
-                                    <i className="fa fa-graduation-cap text_default" />
-                                </div>
-                                <div className="intro_desc">
-                                    <h5>Scholarship</h5>
-                                    <p>If you are going to use passage of anything embarrassing hidden in the middle of text</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+   
+            <WhyChoseUs />
+
+
             {/* END SECTION FEATURE */}
             {/* START SECTION ABOUT */}
             <section className="overflow-hidden small_pt small_pb">
@@ -1025,7 +945,7 @@ const Home = () => {
             </section>
             {/* END SECTION BLOG */}
             {/* START SECTION CLIENT LOGO */}
-            <section className="light_gray_bg">
+            {/* <section className="light_gray_bg">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-6 col-lg-8">
@@ -1063,7 +983,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
 
     )
