@@ -1,11 +1,12 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <Helmet>
-
+          <title>KBPS SCHOOL</title>
       </Helmet>
       <header className="header_wrap dark_skin">
         <div className="top-header bg_blue_dark2 light_skin">
@@ -13,8 +14,8 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <ul className="contact_detail list_none text-center text-md-left">
-                  <li><a href="/#"><i className="ti-mobile" />00000123-456-7890</a></li>
-                  <li><a href="/#"><i className="ti-email" />info@yourmail.com</a></li>
+                  <li><a href="/#"><i className="ti-mobile" />+91 9102603030</a></li>
+                  <li><a href="/#"><i className="ti-email" />codesparrows@gmail.com</a></li>
                 </ul>
               </div>
               <div className="col-md-6">
@@ -37,23 +38,22 @@ const Header = () => {
         </div>
         <div className="container">
           <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="index.html">
+            <Link className="navbar-brand" to="/">
               <img className="logo_light" src="assets/images/logo_white.png" alt="logo" />
               <img className="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
               <img className="logo_default" src="assets/images/logo_dark.png" alt="logo" />
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="ion-android-menu" /> </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul className="navbar-nav">
-
                 <li className="dropdown">
-                  <a className="nav-link active" href="/#" data-toggle="dropdown">Home</a>
+                <Link className="nav-link active" to="/" data-toggle="dropdown">Home</Link>
                 </li>
                 <li className="dropdown">
                   <a className=" nav-link" href="/#" data-toggle="dropdown">About</a>
                 </li>
                 <li className="dropdown">
-                  <a className=" nav-link" href="/#" data-toggle="dropdown">Course</a>
+                  <a className=" nav-link" href="/#" data-toggle="dropdown">CourseS</a>
                 </li>
                 <li className="dropdown">
                   <a className=" nav-link" href="/#" data-toggle="dropdown">Event</a>
@@ -86,7 +86,7 @@ const Header = () => {
                   </div>
                 </li>
                 <li>
-                  <a className="nav-link" href="contact.html">Contact</a>
+                <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
 
               </ul>
