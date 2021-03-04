@@ -9,14 +9,17 @@ import Contact from '../Contact';
 
 const Home = () => {
     return (
-        <>
+    <>
         <BrowserRouter>
             <Header />
-                <Switch>
+            <Switch>
+
                     <Route exact path='/' component={HomePage} />
                     <Route exact path='/about' component={About} />
                     <Route exact path='/contact' component={Contact} />
-                </Switch>
+            
+            </Switch>
+
             <Footer />
         </BrowserRouter>
     </>

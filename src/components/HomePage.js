@@ -8,6 +8,7 @@ import PopularCourses from './HomePage/PopularCourses'
 import TotalDetails from './HomePage/TotalDetails'
 import UpcomingEvents from './HomePage/UpcomingEvents'
 import OurTeachers from './HomePage/OurTeachers'
+import Map from './HomePage/Map'
 
 
 
@@ -24,6 +25,7 @@ const HomePage = () => {
             <TotalDetails />
             <UpcomingEvents />
             <OurTeachers />
+            <Map />
         </>
     )
 }
