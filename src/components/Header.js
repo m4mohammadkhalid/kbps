@@ -58,7 +58,7 @@ const Header = () => {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link
+                        {/* <Link
                           className="nav-link"
                           id="signup-tab1"
                           data-toggle="tab"
@@ -68,7 +68,7 @@ const Header = () => {
                           aria-selected="false"
                         >
                           Sign Up
-                        </Link>
+                        </Link> */}
                       </li>
                     </ul>
                     <div className="tab-content">
@@ -129,6 +129,7 @@ const Header = () => {
                             </button>
                           </div>
                         </form>
+                        
                         <div className="different_login">
                           <span> or</span>
                         </div>
@@ -147,15 +148,15 @@ const Header = () => {
                           </li>
                         </ul>
                       </div>
-                      <div
+                      {/* <div
                         className="tab-pane fade"
                         id="signup"
                         role="tabpanel"
                       >
                         <div className="heading_s1 mb-3">
                           <h4>Sign Up</h4>
-                        </div>
-                        <form method="post" className="login form_style2">
+                        </div> */}
+                        {/* <form method="post" className="login form_style2">
                           <div className="form-group">
                             <input
                               type="text"
@@ -202,10 +203,11 @@ const Header = () => {
                             </button>
                           </div>
                         </form>
-                        <div className="different_login">
+                         */}
+                        {/* <div className="different_login">
                           <span> or</span>
-                        </div>
-                        <ul className="btn-login list_none text-center">
+                        </div> */}
+                        {/* <ul className="btn-login list_none text-center">
                           <li>
                             <Link to="#!" className="btn btn-facebook rounded-0">
                               <i className="ion-social-facebook" />
@@ -218,8 +220,8 @@ const Header = () => {
                               Google
                             </Link>
                           </li>
-                        </ul>
-                      </div>
+                        </ul> 
+                      </div>*/}
                     </div>
                   </div>
                 </div>
@@ -322,7 +324,7 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              
+
               <span className="ion-android-menu" />
             </button>
             <div
@@ -331,7 +333,7 @@ const Header = () => {
             >
               <ul className="navbar-nav">
                 <li className="dropdown">
-                  <NavLink  activeClassName="active_class"
+                  <NavLink activeClassName="active_class"
                     className="nav-link"
                     to="/"
                   >
@@ -339,33 +341,33 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="dropdown ">
-                  <NavLink  to="/about" activeClassName="active_class" className="nav-link">
+                  <NavLink to="/about" activeClassName="active_class" className="nav-link">
                     About
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink  activeClassName="active_class" className="nav-link" to="#">
+                  <NavLink activeClassName="active_class" className="nav-link" to="#">
                     Course
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink  activeClassName="active_class" className="nav-link" to="#">
+                  <NavLink activeClassName="active_class" className="nav-link" to="#">
                     Event
                   </NavLink>
-             
+
                 </li>
                 <li className="dropdown">
-                  <NavLink  activeClassName="active_class" className="nav-link" to="#">
+                  <NavLink activeClassName="active_class" className="nav-link" to="#">
                     Teacher
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink  activeClassName="active_class" className="nav-link" to="#">
+                  <NavLink activeClassName="active_class" className="nav-link" to="#">
                     Blog
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink  activeClassName="active_class" to="/contact" className="nav-link">
+                  <NavLink activeClassName="active_class" to="/contact" className="nav-link">
                     Contact
                   </NavLink>
                 </li>
