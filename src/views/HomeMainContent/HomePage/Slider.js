@@ -30,7 +30,7 @@ const Slider = () => {
 <section className="banner_section p-0 full_screen">
   <div id="carouselExampleControls" className="banner_content_wrap carousel slide" data-ride="carousel">
     <div className="carousel-inner">
-      <div className="carousel-item active background_bg overlay_bg_50" data-img-src="/public/assets/images/banner7.jpg">
+      <div className="carousel-item active background_bg overlay_bg_50" data-img-src="/assets/images/banner7.jpg">
         <div className="banner_slide_content">
           <div className="container">
             <div className="row justify-content-center">
@@ -46,7 +46,7 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className="carousel-item background_bg overlay_bg_50" data-img-src="/public/assets/images/banner8.jpg">
+      <div className="carousel-item background_bg overlay_bg_50" data-img-src="/assets/images/banner8.jpg">
         <div className="banner_slide_content">
           <div className="container">
             <div className="row justify-content-center">
@@ -62,7 +62,7 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className="carousel-item background_bg overlay_bg_50" data-img-src="/public/assets/images/banner9.jpg">
+      <div className="carousel-item background_bg overlay_bg_50" data-img-src="/assets/images/banner9.jpg">
         <div className="banner_slide_content">
           <div className="container">
             <div className="row justify-content-center">
@@ -78,7 +78,7 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className="carousel-item background_bg overlay_bg_50" data-img-src="/public/assets/images/banner10.jpg">
+      <div className="carousel-item background_bg overlay_bg_50" data-img-src="/assets/images/banner10.jpg">
         <div className="banner_slide_content">
           <div className="container">
             <div className="row justify-content-center">

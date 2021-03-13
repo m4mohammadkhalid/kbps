@@ -373,7 +373,7 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink to="/admin" className="nav-link">
-                    <a>Admin</a>
+                    Admin
                   </NavLink>
                 </li>
               </ul>
