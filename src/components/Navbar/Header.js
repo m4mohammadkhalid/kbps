@@ -357,12 +357,12 @@ const Header = () => {
 
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="#">
+                  <NavLink activeClassName="active_class" className="nav-link" to="/admin">
                     Teacher
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="#">
+                  <NavLink activeClassName="active_class" className="nav-link" to="/fuck">
                     Blog
                   </NavLink>
                 </li>

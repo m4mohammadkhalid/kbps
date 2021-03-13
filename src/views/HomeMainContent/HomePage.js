@@ -9,13 +9,15 @@ import TotalDetails from './HomePage/TotalDetails'
 import UpcomingEvents from './HomePage/UpcomingEvents'
 import OurTeachers from './HomePage/OurTeachers'
 import Map from './HomePage/Map'
-
+import  NavBar  from '../../components/Navbar/Header';
+import { Footer } from '../../components/Footer';
 
 
 
 const HomePage = () => {
     return (
         <>
+        <NavBar />
             <Slider />
             <WhyChose />
             <About />
@@ -26,6 +28,7 @@ const HomePage = () => {
             <UpcomingEvents />
             <OurTeachers />
             <Map />
+        <Footer />
         </>
     )
 }
