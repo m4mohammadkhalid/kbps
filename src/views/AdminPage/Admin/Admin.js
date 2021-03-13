@@ -1,10 +1,27 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 
 const Admin = () => {
     return (
-        <div>
-            <h1>Admin Page Create Here</h1>
-        </div>
+        <>
+            <Helmet>
+
+                <title>KBPS ADMIN</title>
+                <link rel="stylesheet" href="https://m4mohammadkhalid.github.io/file/style.css" />
+            </Helmet>
+            <div className="container">
+                <div className="header-text">
+                    <img className="header-text-logo" src="https://seeklogo.com/images/E/educational-people-logo-66BC945BD1-seeklogo.com.png" alt="logo" />
+                    <p className="header-text-description">Student Login</p>
+                </div>
+                <form>
+                    <input type="text" placeholder="Email" name="email" id="email" autofocus />
+                    <input type="password" name="password" id="password" placeholder="Password" required />
+                    <button type="submit" name="login">Login</button>
+                </form>
+            </div>
+        </>
+
     )
 }
 
