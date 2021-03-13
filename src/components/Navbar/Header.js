@@ -362,13 +362,18 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="/fuck">
+                  <NavLink activeClassName="active_class" className="nav-link" to="/">
                     Blog
                   </NavLink>
                 </li>
                 <li>
                   <NavLink activeClassName="active_class" to="/contact" className="nav-link">
                     Contact
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/admin" className="nav-link">
+                    <a>Admin</a>
                   </NavLink>
                 </li>
               </ul>

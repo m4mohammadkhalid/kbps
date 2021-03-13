@@ -16,7 +16,7 @@ export const Routes = () => {
         <Route exact path="/">
           <Redirect to="/" />
         </Route>
-        <Route exact path="/About" component={About} />
+        <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
 
         <Route exact path="/admin" component={Admin} />

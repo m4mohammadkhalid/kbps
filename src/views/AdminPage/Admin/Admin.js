@@ -5,8 +5,6 @@ const Admin = () => {
     return (
         <>
             <Helmet>
-
-                <title>KBPS ADMIN</title>
                 <link rel="stylesheet" href="https://m4mohammadkhalid.github.io/file/style.css" />
             </Helmet>
             <div className="container">
