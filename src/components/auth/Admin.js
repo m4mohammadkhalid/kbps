@@ -1,13 +1,15 @@
-import { useEffect } from 'react';
-import Router from 'next/router';
-import { isAuth } from '../../actions/auth';
+import React,{ useEffect } from 'react';
+import { useHistory } from "react-router-dom";
+import { isAuth } from '../actions/auth';
 
 const Admin = ({ children }) => {
+  const history = useHistory();
+
     useEffect(() => {
         if (!isAuth()) {
-            Router.push(`/signin`);
+            history.push(`/admin`);
         } else if (isAuth().role !== 1) {
-            Router.push(`/`);
+            history.push(`/`);
         }
     }, []);
     return <React.Fragment>{children}</React.Fragment>;
