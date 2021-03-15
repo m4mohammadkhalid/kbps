@@ -6,8 +6,8 @@ import { Helmet } from "react-helmet";
 const SigninComponent = () => {
   const history = useHistory();
   const [values, setValues] = useState({
-    email: "farhan@gmail.com",
-    password: "fuckubby",
+    email: "",
+    password: "",
     error: "",
     loading: false,
     message: "",
@@ -68,7 +68,7 @@ const SigninComponent = () => {
               src="https://seeklogo.com/images/E/educational-people-logo-66BC945BD1-seeklogo.com.png"
               alt="logo"
             />
-            <p className="header-text-description">Student Login Farhan</p>
+            <p className="header-text-description">Student Login</p>
           </div>
           <form onSubmit={handleSubmit}>
             <input
