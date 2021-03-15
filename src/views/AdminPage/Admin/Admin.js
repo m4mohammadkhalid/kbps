@@ -10,7 +10,7 @@ const Admin = () => {
             <div className="container">
                 <div className="header-text">
                     <img className="header-text-logo" src="https://seeklogo.com/images/E/educational-people-logo-66BC945BD1-seeklogo.com.png" alt="logo" />
-                    <p className="header-text-description">Student Login</p>
+                    <p className="header-text-description">Student Login Farhan</p>
                 </div>
                 <form>
                     <input type="text" placeholder="Email" name="email" id="email" autoFocus />
