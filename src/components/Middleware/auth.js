@@ -16,7 +16,7 @@ import cookie from 'js-cookie';
 // };
 
 export const signup = user => {
-    return fetch('http://localhost:8000/signup', {
+    return fetch('https://adminsparrow.herokuapp.com/signup', {
         method: 'POST',
         headers: {
             Accept: 'application/json',
@@ -31,7 +31,7 @@ export const signup = user => {
 };
 
 export const signin = user => {
-    return fetch(`http://localhost:8000/signin`, {
+    return fetch(`https://adminsparrow.herokuapp.com/signin`, {
         method: 'POST',
         headers: {
             Accept: 'application/json',
@@ -50,7 +50,7 @@ export const signout = next => {
     removeLocalStorage('user');
     next();
 
-    return fetch(`http://localhost:8000/signout`, {
+    return fetch(`https://adminsparrow.herokuapp.com/signout`, {
         method: 'GET'
     })
         .then(response => {
@@ -125,7 +125,7 @@ export const updateUser = (user, next) => {
 };
 
 export const forgotPassword = email => {
-    return fetch(`http://localhost:8000/forgot-password`, {
+    return fetch(`https://adminsparrow.herokuapp.com/forgot-password`, {
         method: 'PUT',
         headers: {
             Accept: 'application/json',
@@ -140,7 +140,7 @@ export const forgotPassword = email => {
 };
 
 export const resetPassword = resetInfo => {
-    return fetch(`http://localhost:8000/reset-password`, {
+    return fetch(`https://adminsparrow.herokuapp.com/reset-password`, {
         method: 'PUT',
         headers: {
             Accept: 'application/json',
