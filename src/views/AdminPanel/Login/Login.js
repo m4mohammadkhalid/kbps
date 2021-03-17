@@ -1,6 +1,7 @@
 import React,{ useState, useEffect } from 'react';
 import { signin, authenticate, isAuth } from '../../../components/Middleware/auth';
 import { Link,useHistory } from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 const SigninComponent = () => {
     let history = useHistory();
@@ -17,7 +18,7 @@ const SigninComponent = () => {
     const { email, password, error, loading, message, showForm } = values;
 
     useEffect(() => {
-        isAuth() && history.push(`/`);
+        isAuth() && history.push(`/admindashboard`);
     }, []);
 
     const handleSubmit = e => {
@@ -54,6 +55,15 @@ const SigninComponent = () => {
 
     const signinForm = () => {
         return (
+            <>
+                <Helmet>
+                <link rel="stylesheet" href="https://m4mohammadkhalid.github.io/file/style2.css" />
+            </Helmet>
+                <div className="container">
+    <div className="header-text">
+      <img className="header-text-logo" src="https://seeklogo.com/images/E/educational-people-logo-66BC945BD1-seeklogo.com.png" alt="logo" />
+      <p className="header-text-description">Student Login</p>
+    </div>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <input
@@ -74,11 +84,12 @@ const SigninComponent = () => {
                         placeholder="Type your password"
                     />
                 </div>
-
                 <div>
                     <button className="btn btn-primary">Signin</button>
                 </div>
-            </form>
+                        </form>
+                        </div>
+                </>
         );
     };
 
