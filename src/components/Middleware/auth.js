@@ -1,11 +1,13 @@
 import fetch from 'isomorphic-fetch';
 import cookie from 'js-cookie';
+//import { useHistory } from "react-router-dom";
 
 
 // export const handleResponse = response => {
+//     let history = useHistory();
 //     if (response.status === 401) {
 //         signout(() => {
-//             Router.push({
+//             history.push({
 //                 pathname: '/signin',
 //                 query: {
 //                     message: 'Your session is expired. Please signin'

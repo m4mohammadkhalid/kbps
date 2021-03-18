@@ -11,16 +11,16 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import MailIcon from "@material-ui/icons/Mail";
 import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Admin from "../../../components/Middleware/Admin";
 import { signout } from "../../../components/Middleware/auth";
-import { Link } from "react-router-dom";
 import { DashboardContent } from "../DashboardContent";
 import Student from "../DashboardContent/Student";
+import Category from "../DashboardContent/Category";
+import CategoryTag from "../Crud/CategoryTag";
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -84,17 +84,17 @@ function Dashboard(props) {
             </ListItemIcon>
             <ListItemText primary="About" />
         </ListItem>
-        <ListItem button>
-            <ListItemIcon>
-              <InboxIcon /> 
-            </ListItemIcon>
-            <ListItemText primary="Contact" />
-        </ListItem>
-        <ListItem button>
+        <ListItem button onClick={e=>setfragment("Category")}>
             <ListItemIcon>
               <InboxIcon /> 
             </ListItemIcon>
             <ListItemText primary="Category" />
+        </ListItem>
+        <ListItem button onClick={e=>setfragment("CategoryTag")}>
+            <ListItemIcon>
+              <InboxIcon /> 
+            </ListItemIcon>
+            <ListItemText primary="CategoryTag" />
         </ListItem>
         <ListItem button>
             <ListItemIcon>
@@ -154,7 +154,12 @@ function Dashboard(props) {
       case "Home":
         return <DashboardContent />
         case "Student":
-          return <Student />
+        return <Student />
+        case "Category":
+        return <Category />
+        case "CategoryTag":
+          return <CategoryTag />
+        
       default:
         break;
     }
