@@ -1,205 +1,111 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 const Footer = () => {
   return (
     <>
-      <footer className="bg_blue_dark footer_dark">
-        <div className="top_footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-sm-8 mb-4 mb-lg-0">
-                <div className="footer_logo">
-                  <Link to="index.html">
-                    <img alt="logo" src="assets/images/footer_logo.png" />
-                  </Link>
-                </div>
-                <p>
-                  Phasellus blandit massa enim. elit id varius nunc. Lorem ipsum
-                  dolor sit amet, consectetur industry.
-                </p>
-                <ul className="contact_info contact_info_light list_none">
-                  <li>
-                    <i className="fa fa-map-marker-alt " />
-                    <address>Califonia Street san Francisco, CA</address>
-                  </li>
-                  <li>
-                    <i className="fa fa-envelope" />
-                    <Link to="mailto:info@sitename.com">info@sitename.com</Link>
-                  </li>
-                  <li>
-                    <i className="fa fa-mobile-alt" />
-                    <p>+ 457 789 789 65</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-2 col-sm-4 mb-4 mb-lg-0">
-                <h6 className="widget_title">Useful Links</h6>
-                <ul className="list_none widget_links links_style2">
-                  <li>
-                    <Link to="#">Join Us</Link>
-                  </li>
-                  <li>
-                    <Link to="#">About Us</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Features</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Feedback</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Support center</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Contact Us</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h6 className="widget_title">Recent Posts</h6>
-                <ul className="recent_post border_bottom_dash list_none">
-                  <li>
-                    <div className="post_footer">
-                      <div className="post_img">
-                        <Link to="#">
-                          <img
-                            src="assets/images/letest_post1.jpg"
-                            alt="letest_post1"
-                          />
-                        </Link>
-                      </div>
-                      <div className="post_content">
-                        <h6>
-                          <Link to="#">
-                            Lorem ipsum dolor sit amet, consectetur
-                          </Link>
-                        </h6>
-                        <span className="post_date">April 14, 2018</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="post_footer">
-                      <div className="post_img">
-                        <Link to="#">
-                          <img
-                            src="assets/images/letest_post2.jpg"
-                            alt="letest_post1"
-                          />
-                        </Link>
-                      </div>
-                      <div className="post_content">
-                        <h6>
-                          <Link to="#">
-                            Lorem ipsum dolor sit amet, consectetur
-                          </Link>
-                        </h6>
-                        <span className="post_date">April 14, 2018</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="post_footer">
-                      <div className="post_img">
-                        <Link to="#">
-                          <img
-                            src="assets/images/letest_post3.jpg"
-                            alt="letest_post1"
-                          />
-                        </Link>
-                      </div>
-                      <div className="post_content">
-                        <h6>
-                          <Link to="#">
-                            Lorem ipsum dolor sit amet, consectetur
-                          </Link>
-                        </h6>
-                        <span className="post_date">April 14, 2018</span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <h6 className="widget_title">Subscribe Newsletter</h6>
-                <p>
-                  Contrary to popular belief of lorem Ipsm Latin amet ltin from
-                  consectetur industry.
-                </p>
-                <div className="newsletter_form form_style2 mb-4">
-                  <form>
-                    <input
-                      type="text"
-                      className="form-control"
-                      required
-                      placeholder="Email Address"
-                    />
-                    <button
-                      type="submit"
-                      title="Subscribe"
-                      className="btn btn-default btn-sm rounded-0"
-                      name="submit"
-                      value="Submit"
-                    >
-                      Subscribe
-                    </button>
-                  </form>
-                </div>
-                <h6 className="widget_title">Follow Us</h6>
-                <ul className="list_none social_icons social_white social_style1">
-                  <li>
-                    <Link to="#">
-                      <i className="ion-social-facebook" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="ion-social-twitter" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="ion-social-googleplus" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="ion-social-youtube-outline" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="ion-social-instagram-outline" />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+       <Helmet>
+                <link rel="stylesheet" href="https://m4mohammadkhalid.github.io/file/f1.css" />
+        <link rel="stylesheet" href="https://m4mohammadkhalid.github.io/file/f2.css" />
+        <link rel="stylesheet" href="https://m4mohammadkhalid.github.io/file/f3.css" />            
+        
+            </Helmet>
+<div className="education-main-wrapper">
+  <footer id="education-footer" className="education-footer-one">
+    <span className="education-footer-pattren" />
+    <div className="education-footer-widget">
+      <div className="container">
+        <div className="row">
+          <aside className="col-md-4 widget widget_contact_info">
+            <a href="index.html" className="education-footer-logo"><img src="images/footer-logo.png" alt /></a>
+            <p>4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat urna non ipsum maxim us malesuada.</p>
+            <ul>
+              <li><i className="education-color fa fa-home" /> 195 Cooks Mine Road Espa nola, NM 87532</li>
+              <li><i className="education-color fa fa-phone" /> +123 45 678 - 00 913 2245 <br />678</li>
+              <li><i className="education-color fa fa-envelope" /> <a href="mailto:name@email.com">info@example.com - </a> <a href="mailto:name@email.com">example@abc.com</a></li>
+            </ul>
+          </aside>
+          <aside className="col-md-4 widget widget_featured_courses">
+            <div className="education-footer-title"> <h4>Featured Courses</h4> </div>
+            <ul>
+              <li>
+                <figure><a href="course-detail.html"><img src="images/widget-featured-courses-1.jpg" alt /></a>
+                  <figcaption>
+                    <h6><a href="course-detail.html">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
+                    <div className="star-rating"><span className="star-rating-box" style={{width: '54%'}} /></div>
+                    <small>( 12 Reviews )</small>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure><a href="course-detail.html"><img src="images/widget-featured-courses-2.jpg" alt /></a>
+                  <figcaption>
+                    <h6><a href="course-detail.html">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
+                    <div className="star-rating"><span className="star-rating-box" style={{width: '34%'}} /></div>
+                    <small>( 12 Reviews )</small>
+                  </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure><a href="course-detail.html"><img src="images/widget-featured-courses-3.jpg" alt /></a>
+                  <figcaption>
+                    <h6><a href="course-detail.html">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
+                    <div className="star-rating"><span className="star-rating-box" style={{width: '85%'}} /></div>
+                    <small>( 12 Reviews )</small>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </aside>
+          <aside className="col-md-4 widget widget_gallery">
+            <div className="education-footer-title"> <h4>Flicker Images</h4> </div>
+            <ul>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" className="fancybox"><img src="images/widget-gallery-1.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-2.jpg" className="fancybox"><img src="images/widget-gallery-2.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-3.jpg" className="fancybox"><img src="images/widget-gallery-3.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-4.jpg" className="fancybox"><img src="images/widget-gallery-4.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-5.jpg" className="fancybox"><img src="images/widget-gallery-5.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-6.jpg" className="fancybox"><img src="images/widget-gallery-6.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-7.jpg" className="fancybox"><img src="images/widget-gallery-7.jpg" alt /></a></li>
+              <li><a data-fancybox-group="group" href="extra-images/widget-gallery-8.jpg" className="fancybox"><img src="images/widget-gallery-8.jpg" alt /></a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="education-copyright">
+            <p>© 2017, All Right Reserved - by <a href="index.html">EyeCix</a></p>
+            <ul>
+              <li><a href="404.html">Privacy</a></li>
+              <li><a href="404.html">Terms</a></li>
+              <li><a href="404.html">Sitemap</a></li>
+              <li><a href="404.html">Purchase</a></li>
+            </ul>
+            <a href="#" className="education-back-top"><i className="fa fa-angle-up" /></a>
           </div>
         </div>
-        <div className="bottom_footer bg_blue_dark2">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <p className="copyright m-md-0 text-center text-md-left">
-                  © 2018 All Rights Reserved by Eduglobal.
-                </p>
-              </div>
-              <div className="col-md-6">
-                <ul className="list_none footer_link text-center text-md-right">
-                  <li>
-                    <Link to="#">Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Terms &amp; Conditions</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
+  </footer>
+  <div className="education-parallax">
+    <span className="education-footer-pattren" />
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <h2>Get the Coaching Training for Free</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et elementum nulla, eu placerat felis. Etiam tincidunt orci lacus, id varius.</p> <br />
+          <a href="#">Get Started Now</a>
         </div>
-      </footer>
+      </div>
+    </div>
+  </div>
+  <div className="clearfix" />
+</div>
+
       <Link to="#" className="scrollup" style={{ display: "none" }}>
         <i className="ion-ios-arrow-up" />
       </Link>
