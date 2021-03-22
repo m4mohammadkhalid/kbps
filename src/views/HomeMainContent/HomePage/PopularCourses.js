@@ -1,7 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{useState} from "react";
+import { Link,withRouter } from "react-router-dom";
+import { listBlogsWithCategoriesAndTags } from '../../../components/Middleware/blog';
 
 const PopularCourses = () => {
+  const [data, setData] = useState()
+  const apiget = () => {
+    fetch('https://adminsparrow.herokuapp.com/blogs')
+  .then(response => response.json())
+      .then((json) => {
+    setData(json)
+  });
+  }
   return (
     <section>
       <div className="container">
@@ -13,7 +22,8 @@ const PopularCourses = () => {
               data-animation-delay="0.01s"
             >
               <div className="heading_s1 text-center">
-                <h2>Popular Courses</h2>
+                <button onClick={apiget}>Button</button>
+                <h2>{JSON.stringify(data)} Courses</h2>
               </div>
               <p>
                 If you are going to use a passage of Lorem Ipsum, you need to be
@@ -379,5 +389,7 @@ const PopularCourses = () => {
     </section>
   );
 };
+
+
 
 export default PopularCourses;
