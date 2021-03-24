@@ -11,6 +11,7 @@ import OurTeachers from './HomePage/OurTeachers'
 import Map from './HomePage/Map'
 import  NavBar  from '../../components/Navbar/Header';
 import { Footer } from '../../components/Footer';
+import TopStudent from './HomePage/TopStudent'
 
 
 
@@ -27,6 +28,7 @@ const HomePage = () => {
             <TotalDetails />
             <UpcomingEvents />
             <OurTeachers />
+            <TopStudent />
             <Map />
         <Footer />
         </>
