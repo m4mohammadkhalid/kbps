@@ -3,17 +3,16 @@ import React from "react";
 const Map = () => {
   return (
     <>
-      <section  className="small_pb">
-        <div style={{maxWidth: '100%'}} className="container">
-          <div  className="row justify-content-center">
-            <div  className="col-xl-6 col-lg-8">
-                          <div
-                              
+      <section className="small_pb">
+        <div style={{ maxWidth: "100%" }} className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-6 col-lg-8">
+              <div
                 className="text-center animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.01s"
               >
-                <div  className="heading_s1 text-center">
+                <div className="heading_s1 text-center">
                   <h2 className="font_style1">Get In Touch</h2>
                 </div>
                 <p>
@@ -25,11 +24,11 @@ const Map = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-12">
+          <div  className="row">
+            <div  className="col-12">
               <div className="row">
-                              <div
-                                  style={{ height:"50vh"}}
+                <div
+                  style={{ height: "50vh" }}
                   className="col-md-12 animation"
                   data-animation="fadeInUp"
                   data-animation-delay="0.03s"
