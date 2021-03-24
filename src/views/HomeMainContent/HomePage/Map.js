@@ -3,7 +3,7 @@ import React from "react";
 const Map = () => {
   return (
     <>
-      <section className="small_pb">
+      <section  className="small_pb">
         <div style={{maxWidth: '100%'}} className="container">
           <div  className="row justify-content-center">
             <div  className="col-xl-6 col-lg-8">
@@ -29,7 +29,7 @@ const Map = () => {
             <div className="col-12">
               <div className="row">
                               <div
-                                  style={{width:'100vh', height:"50vh"}}
+                                  style={{ height:"50vh"}}
                   className="col-md-12 animation"
                   data-animation="fadeInUp"
                   data-animation-delay="0.03s"
