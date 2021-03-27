@@ -6,7 +6,7 @@ import image2 from './../assets/images/2.jpg';
 import image3 from './../assets/images/3.jpg';
 
 const CarouselContainer = () => {
-  return (
+  return ( 
     <Carousel fade={true} pause={false}>
       <Carousel.Item interval={2000}>
         <img
