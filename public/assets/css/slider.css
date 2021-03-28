@@ -1,104 +1,121 @@
-[class^=swiper-button-] {
-  transition: all 0.3s ease;
+
+.card-object {
+  display: grid;
+  grid-template: "header header"
+                  "aside  main"
+                 "foot  foot";
+  font-family: courier;
+  font-size: 24px;
+  line-height: 40px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
 }
 
-.swiper-slide {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+.card-object header {
+  grid-column: header;
+  height: 40px;
+  background-image: url(https://image.ibb.co/b49eUb/dechirure.png);
+  background-repeat: repeat;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.card-object aside {
+  grid-area: aside;
+  width: 40px;
+  background-image: url(https://image.ibb.co/fpgtpb/trou.png);
+  background-repeat: repeat;
 }
 
-.swiper-container {
-  width: 80%;
-  height: 100vh;
-  float: left;
-  transition: opacity 0.6s ease, transform 0.3s ease;
-}
-.swiper-container.nav-slider {
-  width: 20%;
-  padding-left: 5px;
-}
-.swiper-container.nav-slider .swiper-slide {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
-}
-.swiper-container.nav-slider .swiper-slide.swiper-slide-active {
-  opacity: 1;
-}
-.swiper-container.nav-slider .swiper-slide .content {
-  width: 100%;
-}
-.swiper-container.nav-slider .swiper-slide .content .title {
-  font-size: 20px;
-}
-.swiper-container:hover .swiper-button-prev,
-.swiper-container:hover .swiper-button-next {
-  transform: translateX(0);
-  opacity: 1;
-  visibility: visible;
-}
-.swiper-container.loading {
-  opacity: 0;
-  visibility: hidden;
+.card-object main {
+  grid-area: main;
+  background-color: white;
 }
 
-.swiper-slide {
-  overflow: hidden;
+.card-object main .message{
+    background-image: url(https://image.ibb.co/iA4Dpb/line.png);
+  background-repeat: repeat;
+  background-position: 0 -10px;
+  margin: 20px 20px 0 20px;
 }
-.swiper-slide .slide-bgimg {
+
+.card-object footer {
+  grid-column: foot;
+  text-align: right;
+  background-color: white;
+  padding: 5px 20px 20px 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.author::before{
+  content: "- ";
+}
+
+.rotate{
+  animation: rotate 14s infinite ease-in-out;
+}
+
+.floating{
+  animation: float 14s infinite ease-in-out;
+}
+
+@keyframes rotate{
+  0% {
+  transform: perspective(1000px) rotateY(4deg);
+  }
+  50%{
+  transform: perspective(1000px) rotateX(-5deg);
+  }
+  100% {
+  transform: perspective(1000px) rotateY(4deg);
+  }
+}
+
+@keyframes float{
+  0% {
+  transform: perspective(1000px) translateY(0px) rotateX(5deg);
+  }
+  50%{
+  transform: perspective(1000px) translateY(10px) rotateX(-5deg);
+  }
+  100% {
+  transform: perspective(1000px) translateY(0px) rotateX(5deg);
+  }
+}
+
+.forget{
+  opacity: 0.2;
+  animation: disappear 5s infinite ease-in-out;
+}
+
+@keyframes disappear{
+  0%{
+    opacity: 0.6;
+  }
+  50%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 0.6;
+  }
+}
+
+.forgotten{
+    opacity: 0.1;
+    background-color: black;
+}
+
+.close_btn {
+  width: 20px;
+  height: 20px;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.swiper-slide .entity-img {
-  display: none;
-}
-.swiper-slide .content {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  width: 50%;
-  padding-left: 5%;
-  color: #fff;
-}
-.swiper-slide .content .title {
-  font-size: 2.6em;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-.swiper-slide .content .caption {
-  display: block;
-  font-size: 13px;
-  line-height: 1.4;
-  transform: translateX(50px);
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.7s ease;
-}
-.swiper-slide .content .caption.show {
-  transform: translateX(0);
-  opacity: 1;
-}
-
-[class^=swiper-button-] {
-  width: 44px;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.swiper-button-prev {
-  transform: translateX(50px);
-}
-
-.swiper-button-next {
-  transform: translateX(-50px);
+  background: #26262f;
+  color: red;
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  right: 20px;
+  top:20px;
 }
