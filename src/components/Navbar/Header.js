@@ -40,6 +40,7 @@ const Header = () => {
                     className="h-100 background_bg radius_ltlb_5"
                     data-img-src="assets/images/login_img.jpg"
                   />
+                  
                 </div>
                 <div className="col-lg-7">
                   <div className="padding_eight_all">
@@ -299,21 +300,22 @@ const Header = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg">
             <Link to="/" className="navbar-brand">
-              <img
+              {/* <img
                 className="logo_light"
                 src="assets/images/logo_white.png"
                 alt="logo"
-              />
-              <img
+              /> */}
+              <h1>KBPS SCHOOL</h1>
+              {/* <img
                 className="logo_dark"
                 src="assets/images/logo_dark.png"
                 alt="logo"
-              />
-              <img
+              /> */}
+              {/* <img
                 className="logo_default"
                 src="assets/images/logo_dark.png"
                 alt="logo"
-              />
+              /> */}
             </Link>
             <button
               className="navbar-toggler"
