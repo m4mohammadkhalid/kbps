@@ -12,6 +12,7 @@ import Map from './HomePage/Map'
 import  NavBar  from '../../components/Navbar/Header';
 import { Footer } from '../../components/Footer';
 import TopStudent from './HomePage/TopStudent'
+import SchoolTime from './HomePage/SchoolTime'
 
 
 
@@ -20,6 +21,7 @@ const HomePage = () => {
         <>
         <NavBar />
             <Slider />
+            <SchoolTime />
             <WhyChose />
             <About />
             <OurFaculty />
@@ -30,6 +32,7 @@ const HomePage = () => {
             <OurTeachers />
             <TopStudent />
             <Map />
+            
         <Footer />
         </>
     )
