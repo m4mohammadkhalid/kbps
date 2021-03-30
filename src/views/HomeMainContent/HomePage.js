@@ -22,15 +22,19 @@ const HomePage = () => {
         <NavBar />
             <Slider />
             <SchoolTime />
-            <WhyChose />
-            <About />
-            <OurFaculty />
-            <Video />
-            <PopularCourses />
-            <TotalDetails />
-            <UpcomingEvents />
-            <OurTeachers />
             <TopStudent />
+            <WhyChose />
+            <OurFaculty />
+            <About />
+            <OurTeachers />
+            <Video />
+            
+            <PopularCourses />
+           
+            <TotalDetails />
+            
+            <UpcomingEvents />
+            
             <Map />
             
         <Footer />

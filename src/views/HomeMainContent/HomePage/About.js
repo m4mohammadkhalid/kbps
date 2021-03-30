@@ -17,7 +17,7 @@ const About = () => {
                     <header></header>
                     <aside></aside>
                     <main><blockquote className="message">May all the <em className="forgotten">tiny</em> black <em className="forget">insects</em> crawling on the peonies be my sons <em className="forget">and daughters</em> in future lives.</blockquote></main>
-                    <footer className="author">John Giorno</footer>
+                    <footer className="author">KBPS SCHOOL</footer>
                   </div>
                 </div>
               </div>
