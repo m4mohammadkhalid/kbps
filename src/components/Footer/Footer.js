@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="col-lg-3 col-sm-8 mb-4 mb-lg-0">
                 <div className="footer_logo">
                   <Link to="index.html">
-                    <img alt="logo" src="assets/images/footer_logo.png" />
+                  <h1>KBPS SCHOOL</h1>
                   </Link>
                 </div>
                 <p>
@@ -183,7 +183,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p className="copyright m-md-0 text-center text-md-left">
-                  © 2018 All Rights Reserved by Eduglobal.
+                  © 2018 All Rights Reserved by KBPS School.
                 </p>
               </div>
               <div className="col-md-6">
