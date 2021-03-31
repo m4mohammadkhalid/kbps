@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="col-lg-3 col-sm-8 mb-4 mb-lg-0">
                 <div className="footer_logo">
                   <Link to="index.html">
-                  <h1>KBPS SCHOOL</h1>
+                  <h2>KBPS SCHOOL</h2>
                   </Link>
                 </div>
                 <p>

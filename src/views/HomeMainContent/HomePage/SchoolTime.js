@@ -3,10 +3,10 @@ import React from 'react'
 const SchoolTime = () => {
             
     const currTime=new Date().toLocaleTimeString();
-    let curDate=new Date(2021,3,30,15);
+    let curDate=new Date();
     curDate=curDate.getHours();
     let Schooltime='';
-    if(curDate >= 6 && curDate < 12){
+    if(curDate >= 7 && curDate < 12){
        Schooltime='School Time';
     }else if(curDate >=12 && curDate < 13){
         Schooltime='Lunch Time'

@@ -305,7 +305,7 @@ const Header = () => {
                 src="assets/images/logo_white.png"
                 alt="logo"
               /> */}
-              <h1>KBPS SCHOOL</h1>
+              <h3>KBPS SCHOOL</h3>
               {/* <img
                 className="logo_dark"
                 src="assets/images/logo_dark.png"

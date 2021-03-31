@@ -447,3 +447,127 @@ img {
       line-height: 60px;
       vertical-align: top;
       color: #50be46; }
+
+
+
+      /* time table */
+
+
+.bgc-orange{background: #ffa726!important}
+.bg-blue{background: #03a9f4!important}
+.bg-yellow{background: #ffcc00!important}
+.bg-brick{background: #fb6b47!important}
+.bg-blue-two{background: #5bc4db!important}
+.bg-reds{background: #cc4b4c!important}
+.bg-gray-light{background-color: #f8f8f8!important}
+.bg-orange{background-color: #ffa726!important}
+.bg-sky{background-color: #03a9f4!important}
+.bg-red{background-color: #f44336!important}
+.bg-green{background-color: #8bc34a!important}
+.bg-per{background-color: #8373ce!important}
+.bg-red-l{background-color: #ff6257}
+.f14{font-size: 14px!important}
+.font-orange{color: #ffa726!important}
+.font-sky{color: #03a9f4!important}
+.font-red{color: #f44336!important}
+.font-green{color: #8bc34a!important}
+.font-per{color: #8373ce!important}
+.font-w{color: #fff!important}
+.hide-sm-up{display: none}
+
+
+
+
+
+
+
+/*Routine */
+
+.kids-care-routine-area {
+	height: auto;
+	padding: 65px 0px;
+	background-image: url(img/bg/routine-bg.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	border-bottom: 1px solid #ececec;
+	background-attachment: fixed;
+}
+.table-wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+th {
+	text-align: left;
+	height: 80px;
+	text-align: center;
+}
+.table-wrapper td {
+	text-align: center;
+	border-right: 2px solid #fff;
+    -webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.table-wrapper td:hover {
+	background: #FFF!IMPORTANT;
+	color: #fb6b47;
+	-webkit-box-shadow: inset 3px 3px 10px #816c66;
+	        box-shadow: inset 3px 3px 10px #816c66;
+}
+table {
+	font-size: 18px;
+	color: #fff;
+    font-family: 'Museo-700';
+    border: 1px solid #ececec;
+}
+th {
+	border-right: 2px solid #fff;
+}
+th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
+.table-time th:nth-child(even) {background: #f0f0f0}
+.table-time th:nth-child(odd) {background: #FFF}
+ tr:nth-child(even) th{background: #f0f0f0}
+.table-corner {width: 115px;font-family: 'Fredoka One', cursive;font-size: 20px}
+.routine-holiday {
+	width: 250px;
+	margin: 0 auto;
+	background-image: url(img/icon/holiday.png);
+    background-repeat: no-repeat;
+}
+.routine-holiday {
+	width: 251px;
+	margin: 0 auto;
+	background-image: url(img/icon/holiday.png);
+	background-repeat: no-repeat;
+	padding: 17px 0px;
+	background-size: 100%;
+	text-align: center;
+	color: #fff;
+	margin-top: -2px;
+	font-size: 18px;
+}
+.res-routine.collapse-wrapper .card-body {
+	padding: 0px;
+}
+.res-routine .time-routine {
+	padding: 8px;
+	background: #abcd52;
+	color: #fff;
+	border-radius: 0;
+	text-align: center;
+	color: #313f0d;
+	font-family: 'Museo-500';
+}
+.res-routine .sin-sub {
+	background: #f44336;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	border-radius: 0px solid inherit;
+	border-bottom: 1px solid #fff;
+}
+.res-routine .card-header:first-child {
+	border-radius: 0px;
+	background: #1d89ba;
+}
+.res-routine.collapse-wrapper {display: none;}
+
