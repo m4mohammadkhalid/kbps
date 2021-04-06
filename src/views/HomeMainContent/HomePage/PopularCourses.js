@@ -53,41 +53,9 @@ const PopularCourses = () => {
                   If you are going to use a passage of Lorem Ipsum you need to
                   be sure anything embarrassing hidden in the middle of text.
                 </p>
-                <div className="courses_info">
-                  <div className="rating_stars">
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star-half" />
-                  </div>
-                  <ul className="list_none content_meta">
-                    <li>
-                      <Link to="#">
-                        <i className="ti-user" />
-                        31
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-heart" />
-                        10
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
-              <div className="content_footer">
-                <div className="teacher">
-                  <Link to="#">
-                    <img src="assets/images/user1.jpg" alt="user1" />
-                    <span>Alia Noor</span>
-                  </Link>
-                </div>
-                <div className="price">
-                  <span className="alert alert-success">Free</span>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
@@ -109,41 +77,10 @@ const PopularCourses = () => {
                   If you are going to use a passage of Lorem Ipsum you need to
                   be sure anything embarrassing hidden in the middle of text.
                 </p>
-                <div className="courses_info">
-                  <div className="rating_stars">
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star-half" />
-                  </div>
-                  <ul className="list_none content_meta">
-                    <li>
-                      <Link to="#">
-                        <i className="ti-user" />
-                        31
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-heart" />
-                        10
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                
+
               </div>
-              <div className="content_footer">
-                <div className="teacher">
-                  <Link to="#">
-                    <img src="assets/images/user2.jpg" alt="user2" />
-                    <span>Dany Core</span>
-                  </Link>
-                </div>
-                <div className="price">
-                  <span className="alert alert-info">$49</span>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
@@ -165,41 +102,9 @@ const PopularCourses = () => {
                   If you are going to use a passage of Lorem Ipsum you need to
                   be sure anything embarrassing hidden in the middle of text.
                 </p>
-                <div className="courses_info">
-                  <div className="rating_stars">
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star-half" />
-                  </div>
-                  <ul className="list_none content_meta">
-                    <li>
-                      <Link to="#">
-                        <i className="ti-user" />
-                        31
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-heart" />
-                        10
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+              
               </div>
-              <div className="content_footer">
-                <div className="teacher">
-                  <Link to="#">
-                    <img src="assets/images/user3.jpg" alt="user3" />
-                    <span>Smith Parker</span>
-                  </Link>
-                </div>
-                <div className="price">
-                  <span className="alert alert-success">Free</span>
-                </div>
-              </div>
+
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
@@ -221,41 +126,10 @@ const PopularCourses = () => {
                   If you are going to use a passage of Lorem Ipsum you need to
                   be sure anything embarrassing hidden in the middle of text.
                 </p>
-                <div className="courses_info">
-                  <div className="rating_stars">
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star-half" />
-                  </div>
-                  <ul className="list_none content_meta">
-                    <li>
-                      <Link to="#">
-                        <i className="ti-user" />
-                        31
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-heart" />
-                        10
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+              
               </div>
-              <div className="content_footer">
-                <div className="teacher">
-                  <Link to="#">
-                    <img src="assets/images/user4.jpg" alt="user4" />
-                    <span>Sara Robert</span>
-                  </Link>
-                </div>
-                <div className="price">
-                  <span className="alert alert-info">$54</span>
-                </div>
-              </div>
+              
+           
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
@@ -277,41 +151,9 @@ const PopularCourses = () => {
                   If you are going to use a passage of Lorem Ipsum you need to
                   be sure anything embarrassing hidden in the middle of text.
                 </p>
-                <div className="courses_info">
-                  <div className="rating_stars">
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star-half" />
-                  </div>
-                  <ul className="list_none content_meta">
-                    <li>
-                      <Link to="#">
-                        <i className="ti-user" />
-                        31
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-heart" />
-                        10
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+              
               </div>
-              <div className="content_footer">
-                <div className="teacher">
-                  <Link to="#">
-                    <img src="assets/images/user5.jpg" alt="user5" />
-                    <span>Wendy Nahse</span>
-                  </Link>
-                </div>
-                <div className="price">
-                  <span className="alert alert-info">$36</span>
-                </div>
-              </div>
+
             </div>
           </div>
           <div className="col-lg-4 col-sm-6">
@@ -333,41 +175,9 @@ const PopularCourses = () => {
                   If you are going to use a passage of Lorem Ipsum you need to
                   be sure anything embarrassing hidden in the middle of text.
                 </p>
-                <div className="courses_info">
-                  <div className="rating_stars">
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star" />
-                    <i className="ion-android-star-half" />
-                  </div>
-                  <ul className="list_none content_meta">
-                    <li>
-                      <Link to="#">
-                        <i className="ti-user" />
-                        31
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ti-heart" />
-                        10
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+             
               </div>
-              <div className="content_footer">
-                <div className="teacher">
-                  <Link to="#">
-                    <img src="assets/images/user6.jpg" alt="user6" />
-                    <span>John Wood</span>
-                  </Link>
-                </div>
-                <div className="price">
-                  <span className="alert alert-info">$22</span>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

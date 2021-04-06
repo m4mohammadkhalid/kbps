@@ -215,7 +215,9 @@ img {
 
 /* Theme Default */
 .section-title {
-  margin-bottom: 50px; }
+  margin-bottom: 50px; 
+  padding-top: 40px;
+}
   .section-title h2 span {
     color: #50be46; }
 
@@ -388,7 +390,9 @@ img {
 /* Home Page 02 */
 
 .countdown-section {
-  position: relative; }
+  position: relative;
+  padding-bottom: 40px;
+}
   .countdown-section:before {
     content: '';
     position: absolute;
@@ -485,11 +489,10 @@ img {
 
 .kids-care-routine-area {
 	height: auto;
-	padding: 65px 0px;
+	padding: 0px 0px;
 	background-image: url(img/bg/routine-bg.jpg);
 	background-repeat: repeat;
 	background-position: center;
-	border-bottom: 1px solid #ececec;
 	background-attachment: fixed;
 }
 .table-wrapper {
@@ -571,3 +574,198 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
 }
 .res-routine.collapse-wrapper {display: none;}
 
+
+
+.signnn {
+
+  font-size: 2em;
+  color: #ad14ad;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ebdf35,
+  ;
+
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #30d6c0,
+     ;
+  }
+  28%,
+  33% {
+    color: #42ca49;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #30bef7;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #80c1df;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #00e6bf,
+      0 -0.5rem 2rem #bbb1b5, 0 0.5rem 3rem #7ee0d0;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .item245 {
+    height: 240px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-nav1 {
+    background-color:#6c757dbd;
+    
+		border-radius: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .item245 {
+    height: 500px;
+  }
+}

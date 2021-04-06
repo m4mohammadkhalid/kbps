@@ -252,10 +252,10 @@ section.small_pb,
 	padding: 10px;
 }
 .header_wrap #navbarSupportedContent .navbar-nav:not([class*="bg_"]):not([class*="bg-"]) {
-	background-color: #343a40;
+	background-color: #0000;
 }
 .header_wrap.dark_skin #navbarSupportedContent .navbar-nav:not([class*="bg_"]):not([class*="bg-"]) {
-	background-color: #fff;
+	background-color: #0000;
 }
 .navbar-expand-lg .navbar-nav > li > .nav-link, .nav-fixed .navbar-expand-lg .navbar-nav > li > .nav-link, .bottom-header .navbar-expand-lg .navbar-nav > li > .nav-link {
 	padding: 10px;

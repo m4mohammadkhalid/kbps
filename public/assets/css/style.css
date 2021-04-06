@@ -51,7 +51,7 @@ textarea:focus {
 	box-shadow:  none !important;
 }
 section {
-	padding: 100px 0;
+	padding: 6px 0;
 	position:relative;
 	width: 100%;
 }
@@ -1972,9 +1972,9 @@ marquee {
 	max-width: 60px;
 }
 .icon_box_style1.icon_box {
-	background-color: #fff;
+	background-color: #6c757dbd;
 	padding: 15px;
-	border: 2px solid #f6f6f6;
+	border-radius: 20px;
 	-moz-transition: transform .25s cubic-bezier(.68,-0.55,.27,1.55);
 	-webkit-transition: transform .25s cubic-bezier(.68,-0.55,.27,1.55);
 	transition: transform .25s cubic-bezier(.68,-0.55,.27,1.55);
@@ -4499,6 +4499,7 @@ body.switch-open {
 	right: -270px;
 	max-width: 270px;
 }
+
 .demo > ul > li > a.icon.switch-active {
 	-moz-transform: translateX(-270px);
 	-webkit-transform: translateX(-270px);

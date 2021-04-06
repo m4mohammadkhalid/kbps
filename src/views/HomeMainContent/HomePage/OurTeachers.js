@@ -17,7 +17,7 @@ const OurTeachers = () => {
             <div className="row">
               <div className="col-lg-3 col-md-6">
                 <div className="single-instructor">
-                  <span className="instructor-sign">john</span>
+                 
                   <div className="instructor-image">
                     <Link to="#"><img src="assets/images/instructor-1.png" alt="khalid" /></Link>
                   </div>
@@ -37,13 +37,12 @@ const OurTeachers = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="single-instructor diffrent-bg-color">
-                  <span className="instructor-sign">arya</span>
                   <div className="instructor-image">
                     <Link to="#"><img src="assets/images/instructor-3.png" alt="khalid" /></Link>
                   </div>
                   <div className="instructor-content">
                     <h4><Link to="#">arya stark</Link></h4>
-                    <span>web teacher</span>
+                    <span>Chemistry Teacher</span>
                   </div>
                   <div className="hover-state">
                     <ul>
@@ -57,13 +56,12 @@ const OurTeachers = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="single-instructor">
-                  <span className="instructor-sign">chris</span>
                   <div className="instructor-image">
                     <Link to="#"><img src="assets/images/instructor-2.png" alt="khalid" /></Link>
                   </div>
                   <div className="instructor-content">
                     <h4><Link to="#">chris wokes</Link></h4>
-                    <span>UI UX teacher</span>
+                    <span>Physics Teacher</span>
                   </div>
                   <div className="hover-state">
                     <ul>
@@ -77,13 +75,12 @@ const OurTeachers = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="single-instructor diffrent-bg-color">
-                  <span className="instructor-sign">devid</span>
                   <div className="instructor-image">
                     <Link to="#"><img src="assets/images/instructor-4.png" alt="khalid" /></Link>
                   </div>
                   <div className="instructor-content">
                     <h4><Link to="#">devid walter</Link></h4>
-                    <span>marketing teacher</span>
+                    <span>Math Teacher</span>
                   </div>
                   <div className="hover-state">
                     <ul>
@@ -98,7 +95,7 @@ const OurTeachers = () => {
             </div>
             <div className="row">
               <div className="col-lg-12">
-                <div className="instructor-button margin-top-20 text-center">
+                <div style={{paddingBottom: '30px'}} className="instructor-button margin-top-20 text-center">
                   <Link to="#" className="template-button">see more instructor</Link>
                 </div>
               </div>

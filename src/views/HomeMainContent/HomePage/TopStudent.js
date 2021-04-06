@@ -6,8 +6,7 @@ const TopStudent = () => {
     return (
         <>
             <Helmet>
-            <link href="https://m4mohammadkhalid.github.io/file/font.min.css" rel="stylesheet" />
-
+            <link href="https://m4mohammadkhalid.github.io/file/k7.css" rel="stylesheet" />
             </Helmet>
 <section className="kids-care-routine-area">
   <div className="container-fluid">

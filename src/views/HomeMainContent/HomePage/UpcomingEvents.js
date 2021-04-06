@@ -50,18 +50,7 @@ const UpcomingEvents = () => {
                     <h4 className="content_title">
                       <Link to="#">Nullam id varius nunc id varius nunc</Link>
                     </h4>
-                    <ul className="list_none content_meta">
-                      <li>
-                        <i className="ti-user" />{" "}
-                        <Link to="#" className="text_default">
-                          John Wood
-                        </Link>
-                      </li>
-                      <li>
-                        <i className="ti-location-pin" />
-                        <span className="text_default">New York City</span>
-                      </li>
-                    </ul>
+                    
                     <p>
                       If you are going to use a passage of Lorem Ipsum you need
                       to be sure anything embarrassing hidden in the middle of
@@ -92,18 +81,7 @@ const UpcomingEvents = () => {
                             Nullam id varius nunc id varius nunc
                           </Link>
                         </h4>
-                        <ul className="list_none content_meta">
-                          <li>
-                            <i className="ti-user" />{" "}
-                            <Link to="#" className="text_default">
-                              John Wood
-                            </Link>
-                          </li>
-                          <li>
-                            <i className="ti-location-pin" />
-                            <span className="text_default">New York City</span>
-                          </li>
-                        </ul>
+                        
                         <p>
                           If you are going to use a passage of Lorem Ipsum you
                           need to be sure anything embarrassing hidden in the
@@ -130,18 +108,7 @@ const UpcomingEvents = () => {
                             Nullam id varius nunc id varius nunc
                           </Link>
                         </h4>
-                        <ul className="list_none content_meta">
-                          <li>
-                            <i className="ti-user" />{" "}
-                            <Link to="#" className="text_default">
-                              John Wood
-                            </Link>
-                          </li>
-                          <li>
-                            <i className="ti-location-pin" />
-                            <span className="text_default">New York City</span>
-                          </li>
-                        </ul>
+                        
                         <p>
                           If you are going to use a passage of Lorem Ipsum you
                           need to be sure anything embarrassing hidden in the
@@ -168,18 +135,7 @@ const UpcomingEvents = () => {
                             Nullam id varius nunc id varius nunc
                           </Link>
                         </h4>
-                        <ul className="list_none content_meta">
-                          <li>
-                            <i className="ti-user" />{" "}
-                            <Link to="#" className="text_default">
-                              John Wood
-                            </Link>
-                          </li>
-                          <li>
-                            <i className="ti-location-pin" />
-                            <span className="text_default">New York City</span>
-                          </li>
-                        </ul>
+                       
                         <p>
                           If you are going to use a passage of Lorem Ipsum you
                           need to be sure anything embarrassing hidden in the

@@ -40,7 +40,7 @@ const Header = () => {
                     className="h-100 background_bg radius_ltlb_5"
                     data-img-src="assets/images/login_img.jpg"
                   />
-                  
+
                 </div>
                 <div className="col-lg-7">
                   <div className="padding_eight_all">
@@ -130,7 +130,7 @@ const Header = () => {
                             </button>
                           </div>
                         </form>
-                        
+
                         <div className="different_login">
                           <span> or</span>
                         </div>
@@ -148,6 +148,7 @@ const Header = () => {
                             </Link>
                           </li>
                         </ul>
+
                       </div>
                       {/* <div
                         className="tab-pane fade"
@@ -157,7 +158,7 @@ const Header = () => {
                         <div className="heading_s1 mb-3">
                           <h4>Sign Up</h4>
                         </div> */}
-                        {/* <form method="post" className="login form_style2">
+                      {/* <form method="post" className="login form_style2">
                           <div className="form-group">
                             <input
                               type="text"
@@ -205,10 +206,10 @@ const Header = () => {
                           </div>
                         </form>
                          */}
-                        {/* <div className="different_login">
+                      {/* <div className="different_login">
                           <span> or</span>
                         </div> */}
-                        {/* <ul className="btn-login list_none text-center">
+                      {/* <ul className="btn-login list_none text-center">
                           <li>
                             <Link to="#!" className="btn btn-facebook rounded-0">
                               <i className="ion-social-facebook" />
@@ -240,18 +241,18 @@ const Header = () => {
                   <li>
                     <Link to="#">
                       <i className="ti-mobile" />
-                      123-456-7890
+                      +91-9911228484
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
                       <i className="ti-email" />
-                      info@yourmail.com
+                      codesparrow@gmail.com
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <div className="d-flex flex-wrap align-items-center justify-content-md-end justify-content-center mt-2 mt-md-0">
                   <ul className="list_none social_icons social_white text-center text-md-right">
                     <li>
@@ -288,24 +289,27 @@ const Header = () => {
                     </li>
                     <li>
                       <Link to="#" className="btn btn-default btn-sm rounded-0">
-                        Apply Now
+                        Apply For Vacancy
                       </Link>
                     </li>
                   </ul>
                 </div>
               </div>
+           */}
             </div>
           </div>
         </div>
-        <div className="container">
+        <div  className="container">
           <nav className="navbar navbar-expand-lg">
-            <Link to="/" className="navbar-brand">
+            <Link style={{ padding: '6px 0px 1px 0px', fontSize: '30px', textAlign: 'center' }} to="/" className="navbar-brand signnn">
               {/* <img
                 className="logo_light"
                 src="assets/images/logo_white.png"
                 alt="logo"
               /> */}
-              <h3>KBPS SCHOOL</h3>
+
+              <p> <span class="fast-flicker">KBPS</span> SCHOOL</p>
+
               {/* <img
                 className="logo_dark"
                 src="assets/images/logo_dark.png"
@@ -329,11 +333,11 @@ const Header = () => {
 
               <span className="ion-android-menu" />
             </button>
-            <div
-              className="collapse navbar-collapse justify-content-end"
+            <div style={{ textAlign: 'center' }}
+              className="collapse navbar-collapse justify-content-end navbar-nav1"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav">
+              <ul className="navbar-nav navbar-nav1">
                 <li className="dropdown">
                   <NavLink activeClassName="active_class"
                     className="nav-link"
@@ -348,24 +352,24 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="#">
-                    Course
+                  <NavLink activeClassName="active_class" className="nav-link" to="/gallery">
+                    Gallery
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="#">
-                    Event
+                  <NavLink activeClassName="active_class" className="nav-link" to="/event">
+                    News & Event
                   </NavLink>
 
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="/admin">
+                  <NavLink activeClassName="active_class" className="nav-link" to="/teacher">
                     Teacher
                   </NavLink>
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="/">
-                    Blog
+                  <NavLink activeClassName="active_class" className="nav-link" to="/facility">
+                    Facility & Infrastructure
                   </NavLink>
                 </li>
                 <li>

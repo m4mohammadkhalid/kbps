@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Video = () => {
     return (
-        <section className="parallax_bg overlay_bg_blue_70" data-parallax-bg-image="assets/images/banner5.jpg">
+        <section style={{borderRadius: '20px'}} className="parallax_bg overlay_bg_blue_70" data-parallax-bg-image="assets/images/banner5.jpg">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-md-6">

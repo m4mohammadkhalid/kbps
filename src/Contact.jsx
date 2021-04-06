@@ -110,7 +110,7 @@ const Contact = () => {
                 </div>
                 <div className="intro_desc">
                   <h5>Address</h5>
-                  <p>Califonia Street san Francisco, CA</p>
+                  <p>New Delhi Palam</p>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Contact = () => {
                 </div>
                 <div className="intro_desc">
                   <h5>Call Us</h5>
-                  <p>+ 457 789 789 65</p>
+                  <p>++91-9911228484</p>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ const Contact = () => {
                 </div>
                 <div className="intro_desc">
                   <h5>Email</h5>
-                  <p>info@sitename.com</p>
+                  <p>codesparrows@gmail.com</p>
                 </div>
               </div>
             </div>

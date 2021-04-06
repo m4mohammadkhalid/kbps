@@ -1,0 +1,276 @@
+
+.page {
+    min-height: 100vh;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 2nd  */
+
+#page-links {
+    padding: 24px;
+    background: #ffffff;
+}
+#page-links a.lesson {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px 0px;
+    border-left: #505050 solid 4px;
+    color: #505050;
+    background: #50505015;
+}
+#page-links a.lesson:hover {
+    background-color: #505050;
+    color: #ffffff;
+    border-left-color: #c0c0c0;
+    text-decoration: none;
+    transition: 
+        1s background-color,
+        1s color,
+        1s border-left-color;
+}
+
+/* 3rd */
+
+#page-gallery-1 {
+    position: relative;
+    background-color: #25508C;
+    overflow: hidden;
+}
+#page-gallery-1>.grid {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#page-gallery-1>.grid>.photo {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #25508C;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: skewX(15deg); */
+}
+#page-gallery-1>.grid>.photo:nth-child(1) {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: left;
+}
+#page-gallery-1>.grid>.photo:nth-child(2) {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: right;
+}
+#page-gallery-1>.grid>.photo:nth-child(3) {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: left;
+}
+#page-gallery-1>.grid>.photo:nth-child(4) {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: right;
+}
+#page-gallery-1>.center-photo {
+    position: absolute;
+    display: flex;
+    top:0px; left: 0px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#page-gallery-1>.center-photo>.photo {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #25508C;
+}
+
+/* 4th */
+
+
+#page-gallery {
+    position: relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3em 0px;
+    background: #25508C;
+}
+
+#page-gallery .card {
+    background-color: #ffffff;
+    margin: 16px;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0px 2px 4px 2px #00000070;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-property: transform;
+}
+#page-gallery .card .photo {
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#page-gallery .card::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: -20px;
+    width: 36px;
+    height: 36px;
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+#page-gallery .card:nth-child(3n+1)::after { left: 55%; }
+#page-gallery .card:nth-child(3n+1) { transform: rotateZ(-1deg); }
+#page-gallery .card:nth-child(3n+2)::after { left: 45%; }
+#page-gallery .card:nth-child(3n+2) { transform: rotateZ(1deg); }
+#page-gallery .card:nth-child(3n+3)::after { left: 40%;}
+#page-gallery .card:nth-child(3n+3) { transform: rotateZ(2deg); }
+
+#page-gallery .card:hover::after {
+    transform: 
+        translate(-50%, -100%)
+        rotateZ(-20deg);
+}
+#page-gallery .card:hover {
+    z-index: 999;
+    transform: 
+        rotateZ(0deg)
+        scale(120%, 120%);
+}
+
+#page-gallery .card:nth-child(1) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+}
+#page-gallery .card:nth-child(2) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+}
+#page-gallery .card:nth-child(3) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+}
+#page-gallery .card:nth-child(4) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: left;
+}
+#page-gallery .card:nth-child(5) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: left;
+}
+#page-gallery .card:nth-child(6) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: left;
+}
+#page-gallery .card:nth-child(7) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: right;
+}
+#page-gallery .card:nth-child(8) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: right;
+}
+#page-gallery .card:nth-child(9) .photo {
+    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-position: right;
+}
+
+/* 5th */
+
+#page-start {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr auto;
+    grid-template-areas:
+        "photo name"
+        "photo about"
+        "links links";
+    overflow: hidden;
+    height: auto;
+    min-height: 10vh;
+    background: #25508C;
+}
+#page-start>.photo-block {
+    grid-area: photo;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 16px;
+}
+#page-start>.photo-block .my-photo {
+    background: url(https://sun9-38.userapi.com/c857016/v857016487/1da1/npX3TXcv_v4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF55;
+    width: 200px;
+    height: 200px;
+}
+#page-start>.name-block {
+    grid-area: name;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    font-size: 250%;
+    color: #FFFFFF;
+}
+#page-start>.about-block {
+    grid-area: about;
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+
+
+
+#page-start .links-block {
+    grid-area: links;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--color-secondary);
+}
+#page-start .links-block>a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    margin: 16px;
+    color: #194977;
+    background: var(--color-accent);
+}
+#page-start .links-block>a.link-vk {
+    background: url(https://brand.vkforms.ru/static/media/logo_color_198.231228dd.svg) no-repeat 50% / contain;
+}
+#page-start .links-block>a.link-facebook {
+    background: url(https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png) no-repeat 50% / contain;
+}
+#page-start .links-block>a.link-instagram {
+    background: url(https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=64) no-repeat 50% / contain;
+}
+#page-start .links-block>a.link-twitter {
+    background: url(https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-64.png) no-repeat 50% / contain;
+}

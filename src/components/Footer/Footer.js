@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="bg_blue_dark footer_dark">
+      <footer style={{backgroundImage:'url("assets/images/footer2.jpg")',borderRadius: '20px',backgroundRepeat:'no-repeat',backgroundPosition: 'center',backgroundSize: 'cover'}} className="bg_blue_dark footer_dark">
         <div className="top_footer">
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-sm-8 mb-4 mb-lg-0">
-                <div className="footer_logo">
+                <div className="footer_logo signnn">
                   <Link to="index.html">
-                  <h2>KBPS SCHOOL</h2>
+                  <p> <h1> <span class="fast-flicker">KBPS</span> SCHOOL </h1></p>
                   </Link>
                 </div>
                 <p>
@@ -21,15 +21,15 @@ const Footer = () => {
                 <ul className="contact_info contact_info_light list_none">
                   <li>
                     <i className="fa fa-map-marker-alt " />
-                    <address>Califonia Street san Francisco, CA</address>
+                    <address>Palam New Delhi</address>
                   </li>
                   <li>
                     <i className="fa fa-envelope" />
-                    <Link to="mailto:info@sitename.com">info@sitename.com</Link>
+                    <Link to="mailto:info@sitename.com">codesparrows@gmail.com</Link>
                   </li>
                   <li>
                     <i className="fa fa-mobile-alt" />
-                    <p>+ 457 789 789 65</p>
+                    <p>+91-9911228484</p>
                   </li>
                 </ul>
               </div>
@@ -178,7 +178,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bottom_footer bg_blue_dark2">
+        <div style={{backgroundColor:'green',borderTopLeftRadius: '25px',borderTopRightRadius: '25px'}} className="bottom_footer bg_blue_dark2">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-6">

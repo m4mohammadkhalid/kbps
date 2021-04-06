@@ -2,118 +2,23 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Header';
 import { Footer } from '../../components/Footer';
+
 const About = () => {
+  
   return (
     <>
      <NavBar />
-      <div className="modal fade lr_popup" id="Login" tabIndex={-1} role="dialog" aria-hidden="true">
-        <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
-          <div className="modal-content border-0">
-            <div className="modal-body">
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-              <div className="row no-gutters">
-                <div className="col-lg-5">
-                  <div className="h-100 background_bg radius_ltlb_5" data-img-src="assets/images/login_img.jpg" />
-                </div>
-                <div className="col-lg-7">
-                  <div className="padding_eight_all">
-                    <ul className="nav nav-tabs" role="tablist">
-                      <li className="nav-item">
-                        <Link className="nav-link active" id="login-tab1" data-toggle="tab" to="#login" role="tab" aria-controls="login" aria-selected="true">Login</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" id="signup-tab1" data-toggle="tab" to="#signup" role="tab" aria-controls="signup" aria-selected="false">Sign Up</Link>
-                      </li>
-                    </ul>
-                    <div className="tab-content">
-                      <div className="tab-pane fade show active" id="login" role="tabpanel">
-                        <div className="heading_s1 mb-3">
-                          <h4>Login</h4>
-                        </div>
-                        <form method="post" className="login">
-                          <div className="form-group">
-                            <input type="text" required className="form-control" name="email" placeholder="Email" />
-                          </div>
-                          <div className="form-group">
-                            <input className="form-control" required type="password" name="password" placeholder="Password" />
-                          </div>
-                          <div className="login_footer form-group">
-                            <Link to="#">Lost your password?</Link>
-                            <div className="chek-form mb-3">
-                              <div className="custome-checkbox">
-                                <input className="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" defaultValue />
-                                <label className="form-check-label" htmlFor="exampleCheckbox3">Remember me</label>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="form-group">
-                            <button type="submit" className="btn btn-default btn-block" name="login">Log in</button>
-                          </div>
-                        </form>
-                        <div className="different_login">
-                          <span> or</span>
-                        </div>
-                        <ul className="btn-login list_none text-center">
-                          <li><Link to="#" className="btn btn-facebook"><i className="ion-social-facebook" />Facebook</Link></li>
-                          <li><Link to="#" className="btn btn-google"><i className="ion-social-googleplus" />Google</Link></li>
-                        </ul>
-                      </div>
-                      <div className="tab-pane fade" id="signup" role="tabpanel">
-                        <div className="heading_s1 mb-3">
-                          <h4>Sign Up</h4>
-                        </div>
-                        <form method="post" className="login">
-                          <div className="form-group">
-                            <input type="text" required className="form-control" name="username" placeholder="Username" />
-                          </div>
-                          <div className="form-group">
-                            <input type="text" required className="form-control" name="email" placeholder="Email" />
-                          </div>
-                          <div className="form-group">
-                            <input className="form-control" required type="password" name="password" placeholder="Password" />
-                          </div>
-                          <div className="form-group">
-                            <input className="form-control" required type="password" name="cpassword" placeholder="Confirm Password" />
-                          </div>
-                          <div className="form-group">
-                            <button type="submit" className="btn btn-default btn-block" name="login">Sign Up</button>
-                          </div>
-                        </form>
-                        <div className="different_login">
-                          <span> or</span>
-                        </div>
-                        <ul className="btn-login list_none text-center">
-                          <li><Link to="#" className="btn btn-facebook"><i className="ion-social-facebook" />Facebook</Link></li>
-                          <li><Link to="#" className="btn btn-google"><i className="ion-social-googleplus" />Google</Link></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* START SECTION BREADCRUMB */}
-      <section className="page-title-light breadcrumb_section parallax_bg overlay_bg_50" data-parallax-bg-image="assets/images/about_bg.jpg">
+  
+
+      <section className="page-title-light breadcrumb_section parallax_bg overlay_bg_50" style={{backgroundImage:'url("https://image.shutterstock.com/image-photo/butterfly-on-flower-hd-pic-260nw-1802530627.jpg")', height:'80px'}}>
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-sm-6">
+            <div className="col-sm-12">
               <div className="page-title">
-                <h1>About Us</h1>
+                <h1 style={{textAlign:'center'}}>About Us</h1>
               </div>
             </div>
-            <div className="col-sm-6">
-              <nav aria-label="breadcrumb">
-                <ol className="breadcrumb justify-content-sm-end">
-                  <li className="breadcrumb-item"><Link to="#">Home</Link></li>
-                  <li className="breadcrumb-item active" aria-current="page">About Us</li>
-                </ol>
-              </nav>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -125,7 +30,7 @@ const About = () => {
             <div className="col-md-6">
               <div className="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                 <div className="heading_s1 text-center">
-                  <h2>Why Choose Eduglobal</h2>
+                  <h2>Why Choose KBPS SCHOOL</h2>
                 </div>
                 <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
               </div>
@@ -181,20 +86,7 @@ const About = () => {
                   </div>
                   <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
                   <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                  <ul className="list_none list_item">
-                    <li>
-                      <div className="counter_content">
-                        <h3 className="h1 text_danger"><span className="counter">260</span></h3>
-                        <h6>Free Courses</h6>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="counter_content">
-                        <h3 className="h1 text_light_green"><span className="counter">152</span></h3>
-                        <h6>Paid Courses</h6>
-                      </div>
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
