@@ -14,6 +14,7 @@ function TopStudent() {
         slidesToShow: 4,
         slidesToScroll: 1,
         cssEase: "linear",
+       
     }
     return (
         <Slider {...settings}>

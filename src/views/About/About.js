@@ -1,16 +1,19 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import { Link } from "react-router-dom";
 import NavBar from '../../components/Navbar/Header';
 import { Footer } from '../../components/Footer';
-
+import axios from 'axios'
 const About = () => {
-  
+  const [post,setpost]=useState([])
+useEffect(()=>{
+  axios.get('http://localhost:4000/api/v1/product').then(response=>setpost(response.data)).catch(err=>console.log(err))
+})
   return (
     <>
      <NavBar />
   
 
-      <section className="page-title-light breadcrumb_section parallax_bg overlay_bg_50" style={{backgroundImage:'url("https://image.shutterstock.com/image-photo/butterfly-on-flower-hd-pic-260nw-1802530627.jpg")', height:'80px'}}>
+      <section  className="page-title-light breadcrumb_section parallax_bg overlay_bg_50" style={{backgroundImage:'url("https://images.pexels.com/photos/1400141/pexels-photo-1400141.jpeg")', backgroundRepeat:'no-repeat',backgroundPosition: 'center',backgroundSize: 'cover',height:'80px', paddingTop:'18px'}}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-12">
@@ -24,7 +27,7 @@ const About = () => {
       </section>
       {/* END SECTION BANNER */}
       {/* START SECTION FEATURE */}
-      <section className="bg_gray">
+      <section style={{backgroundImage: 'url("/assets/images/white_wall.png")', backgroundRepeat:'no-repeat',backgroundPosition: 'center',backgroundSize: 'cover',paddingTop:'38px'}} className="bg_gray">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6">
@@ -38,7 +41,7 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-md-4">
-              <div className="icon_box text-center bg-white icon_box_style2 box_shadow2 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+              <div style={{borderRadius:'60px',backgroundColor: '#0000'}} className="icon_box text-center icon_box_style2 box_shadow2 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                 <div className="box_icon bg_danger mb-3">
                   <img src="assets/images/book.png" alt="book" />
                 </div>
@@ -49,7 +52,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="icon_box text-center bg-white icon_box_style2 box_shadow2 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
+              <div style={{borderRadius:'60px',backgroundColor: '#0000'}} className="icon_box text-center icon_box_style2 box_shadow2 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
                 <div className="box_icon bg_default mb-3">
                   <img src="assets/images/globe.png" alt="globe" />
                 </div>
@@ -60,7 +63,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="icon_box text-center bg-white icon_box_style2 box_shadow2 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
+              <div style={{borderRadius:'60px',backgroundColor: '#0000'}} className="icon_box text-center icon_box_style2 box_shadow2 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
                 <div className="box_icon bg_light_green mb-3">
                   <img src="assets/images/instructors.png" alt="instructors" />
                 </div>
@@ -73,19 +76,20 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* END SECTION FEATURE */}
-      {/* START SECTION ABOUT */}
+  {
+    post.map((data,key)=>(
+
+  
       <section className="overflow-hidden res_md_p_0">
         <div className="container-fluid p-0">
           <div className="row no-gutters align-items-center">
             <div className="col-md-6">
-              <div className="box_shadow1 bg-white overlap_section padding_eight_all">
+              <div style={{borderRadius: '200px 200px 200px 200px'}} className="box_shadow1 bg-white overlap_section padding_eight_all">
                 <div className="animation" data-animation="fadeInLeft" data-animation-delay="0.02s">
                   <div className="heading_s1">
-                    <h2>About Us</h2>
+                    <h2>{data.name}</h2>
                   </div>
-                  <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
-                  <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                  <p>{data.description}</p>
                   
                 </div>
               </div>
@@ -103,9 +107,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* END SECTION ABOUT */}
-      {/* START SECTION TEACHER */}
-      <section className="parallax_bg overlay_bg_blue_90" data-parallax-bg-image="assets/images/teacher_bg.jpg">
+        ))
+}
+      <section  className="parallax_bg overlay_bg_blue_90" data-parallax-bg-image="assets/images/teacher_bg.jpg">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-8">
@@ -121,7 +125,7 @@ const About = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.02s">
                 <div className="team_img">
-                  <img src="assets/images/team_img1.jpg" alt="team1" />
+                  <img src="assets/images/instructor.png" alt="team1" />
                   <ul className="list_none social_icons social_white">
                     <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                     <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -138,7 +142,7 @@ const About = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
                 <div className="team_img">
-                  <img src="assets/images/team_img2.jpg" alt="team2" />
+                  <img src="assets/images/instructor.png" alt="team2" />
                   <ul className="list_none social_icons social_white">
                     <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                     <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -155,7 +159,7 @@ const About = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
                 <div className="team_img">
-                  <img src="assets/images/team_img3.jpg" alt="team3" />
+                  <img src="assets/images/instructor.png" alt="team3" />
                   <ul className="list_none social_icons social_white">
                     <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                     <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -172,7 +176,7 @@ const About = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.05s">
                 <div className="team_img">
-                  <img src="assets/images/team_img4.jpg" alt="team4" />
+                  <img src="assets/images/instructor.png" alt="team4" />
                   <ul className="list_none social_icons social_white">
                     <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                     <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -189,60 +193,8 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* END SECTION TEACHER */}
-      {/* START SECTION COUNTER */}
-      <section className="bg_gray">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-3 col-6 ">
-              <div className="box_counter counter_style1 text-center animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                <div className="counter_icon">
-                  <img src="assets/images/counter_icon_dark1.png" alt="counter_icon1" />
-                </div>
-                <div className="counter_content">
-                  <h3 className="counter_text"><span className="counter">1800</span>+</h3>
-                  <p>Students</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-3 col-6 ">
-              <div className="box_counter counter_style1 text-center animation" data-animation="fadeInUp" data-animation-delay="0.03s">
-                <div className="counter_icon">
-                  <img src="assets/images/counter_icon_dark2.png" alt="counter_icon2" />
-                </div>
-                <div className="counter_content">
-                  <h3 className="counter_text"><span className="counter">70</span></h3>
-                  <p>Courses</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-3 col-6 ">
-              <div className="box_counter counter_style1 text-center animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-                <div className="counter_icon">
-                  <img src="assets/images/counter_icon_dark3.png" alt="counter_icon3" />
-                </div>
-                <div className="counter_content">
-                  <h3 className="counter_text"><span className="counter">700</span>+</h3>
-                  <p>Certified teachers</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-3 col-6 ">
-              <div className="box_counter counter_style1 text-center animation" data-animation="fadeInUp" data-animation-delay="0.05s">
-                <div className="counter_icon">
-                  <img src="assets/images/counter_icon_dark4.png" alt="counter_icon4" />
-                </div>
-                <div className="counter_content">
-                  <h3 className="counter_text"><span className="counter">1200</span>+</h3>
-                  <p>Award Winning</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* END SECTION COUNTER */}
-      {/* START SECTION TESTIMONIAL */}
+      
+   
       <section>
         <div className="container">
           <div className="row justify-content-center">
@@ -261,7 +213,7 @@ const About = () => {
               <div className="testimonial_slider testimonial_style1 carousel_slider owl-carousel owl-theme" data-margin={30} data-loop="true" data-autoplay="true" data-dots="false" data-responsive="{&quot;0&quot;:{&quot;items&quot;: &quot;1&quot;}, &quot;576&quot;:{&quot;items&quot;: &quot;2&quot;}, &quot;1199&quot;:{&quot;items&quot;: &quot;2&quot;}}">
                 <div className="testimonial_box">
                   <div className="testimonial_img">
-                    <img className="radius_all_5" src="assets/images/client_img1.jpg" alt="client" />
+                    <img className="radius_all_5" src="assets/images/instructor.png" alt="client" />
                   </div>
                   <div className="testi_meta">
                     <div className="testi_user">
@@ -275,7 +227,7 @@ const About = () => {
                 </div>
                 <div className="testimonial_box">
                   <div className="testimonial_img">
-                    <img className="radius_all_5" src="assets/images/client_img2.jpg" alt="client" />
+                    <img className="radius_all_5" src="assets/images/instructor.png" alt="client" />
                   </div>
                   <div className="testi_meta">
                     <div className="testi_user">
@@ -289,7 +241,7 @@ const About = () => {
                 </div>
                 <div className="testimonial_box">
                   <div className="testimonial_img">
-                    <img className="radius_all_5" src="assets/images/client_img3.jpg" alt="client" />
+                    <img className="radius_all_5" src="assets/images/instructor.png" alt="client" />
                   </div>
                   <div className="testi_meta">
                     <div className="testi_user">

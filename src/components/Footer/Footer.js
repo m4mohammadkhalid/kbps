@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer style={{backgroundImage:'url("assets/images/footer2.jpg")',borderRadius: '20px',backgroundRepeat:'no-repeat',backgroundPosition: 'center',backgroundSize: 'cover'}} className="bg_blue_dark footer_dark">
+      <footer style={{backgroundImage:'url("assets/images/footer2.jpeg")',height:'10%',borderRadius: '20px',backgroundRepeat:'no-repeat',backgroundPosition: 'center',backgroundSize: 'cover'}} className="bg_blue_dark footer_dark">
         <div className="top_footer">
           <div className="container">
             <div className="row">
@@ -14,50 +14,50 @@ const Footer = () => {
                   <p> <h1> <span class="fast-flicker">KBPS</span> SCHOOL </h1></p>
                   </Link>
                 </div>
-                <p>
+                <p style={{color:'black',fontWeight: 'bold'}}>
                   Phasellus blandit massa enim. elit id varius nunc. Lorem ipsum
                   dolor sit amet, consectetur industry.
                 </p>
                 <ul className="contact_info contact_info_light list_none">
-                  <li>
-                    <i className="fa fa-map-marker-alt " />
-                    <address>Palam New Delhi</address>
+                  <li >
+                    <i style={{color:'black',fontWeight: 'bold'}} className="fa fa-map-marker-alt " />
+                    <address style={{color:'black',fontWeight: 'bold'}}>Palam New Delhi</address>
                   </li>
                   <li>
-                    <i className="fa fa-envelope" />
-                    <Link to="mailto:info@sitename.com">codesparrows@gmail.com</Link>
+                    <i style={{color:'black',fontWeight: 'bold'}} className="fa fa-envelope" />
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="mailto:info@sitename.com">codesparrows@gmail.com</Link>
                   </li>
                   <li>
-                    <i className="fa fa-mobile-alt" />
-                    <p>+91-9911228484</p>
+                    <i style={{color:'black',fontWeight: 'bold'}} className="fa fa-mobile-alt" />
+                    <p style={{color:'black',fontWeight: 'bold'}} >+91-9911228484</p>
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-sm-4 mb-4 mb-lg-0">
-                <h6 className="widget_title">Useful Links</h6>
+              <div  className="col-lg-2 col-sm-4 mb-4 mb-lg-0">
+                <h6 style={{color:'black',fontWeight: 'bold'}} className="widget_title">Useful Links</h6>
                 <ul className="list_none widget_links links_style2">
                   <li>
-                    <Link to="#">Join Us</Link>
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">Join Us</Link>
                   </li>
                   <li>
-                    <Link to="#">About Us</Link>
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">About Us</Link>
                   </li>
                   <li>
-                    <Link to="#">Features</Link>
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">Features</Link>
                   </li>
                   <li>
-                    <Link to="#">Feedback</Link>
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">Feedback</Link>
                   </li>
                   <li>
-                    <Link to="#">Support center</Link>
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">Support center</Link>
                   </li>
                   <li>
-                    <Link to="#">Contact Us</Link>
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">Contact Us</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h6 className="widget_title">Recent Posts</h6>
+                <h6 style={{color:'black',fontWeight: 'bold'}} className="widget_title">Recent Posts</h6>
                 <ul className="recent_post border_bottom_dash list_none">
                   <li>
                     <div className="post_footer">
@@ -71,11 +71,11 @@ const Footer = () => {
                       </div>
                       <div className="post_content">
                         <h6>
-                          <Link to="#">
+                          <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                             Lorem ipsum dolor sit amet, consectetur
                           </Link>
                         </h6>
-                        <span className="post_date">April 14, 2018</span>
+                        <span style={{color:'black',fontWeight: 'bold'}} className="post_date">April 14, 2018</span>
                       </div>
                     </div>
                   </li>
@@ -91,11 +91,11 @@ const Footer = () => {
                       </div>
                       <div className="post_content">
                         <h6>
-                          <Link to="#">
+                          <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                             Lorem ipsum dolor sit amet, consectetur
                           </Link>
                         </h6>
-                        <span className="post_date">April 14, 2018</span>
+                        <span style={{color:'black',fontWeight: 'bold'}} className="post_date">April 14, 2018</span>
                       </div>
                     </div>
                   </li>
@@ -111,19 +111,19 @@ const Footer = () => {
                       </div>
                       <div className="post_content">
                         <h6>
-                          <Link to="#">
+                          <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                             Lorem ipsum dolor sit amet, consectetur
                           </Link>
                         </h6>
-                        <span className="post_date">April 14, 2018</span>
+                        <span style={{color:'black',fontWeight: 'bold'}} className="post_date">April 14, 2018</span>
                       </div>
                     </div>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-4 col-md-6">
-                <h6 className="widget_title">Subscribe Newsletter</h6>
-                <p>
+                <h6 style={{color:'black',fontWeight: 'bold'}} className="widget_title">Subscribe Newsletter</h6>
+                <p style={{color:'black',fontWeight: 'bold'}}>
                   Contrary to popular belief of lorem Ipsm Latin amet ltin from
                   consectetur industry.
                 </p>
@@ -146,30 +146,30 @@ const Footer = () => {
                     </button>
                   </form>
                 </div>
-                <h6 className="widget_title">Follow Us</h6>
+                <h6 style={{color:'black',fontWeight: 'bold'}} className="widget_title">Follow Us</h6>
                 <ul className="list_none social_icons social_white social_style1">
                   <li>
-                    <Link to="#">
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                       <i className="ion-social-facebook" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                       <i className="ion-social-twitter" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                       <i className="ion-social-googleplus" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                       <i className="ion-social-youtube-outline" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link style={{color:'black',fontWeight: 'bold'}} to="#">
                       <i className="ion-social-instagram-outline" />
                     </Link>
                   </li>

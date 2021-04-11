@@ -45,7 +45,7 @@ const OurFaculty = () => {
       <div className="col-12">
         <div className="text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">
           <div className="medium_divider" />
-          <Link to="#" className="btn btn-default rounded-0">View All Faculty <i className="ion-ios-arrow-thin-right ml-1" /></Link>
+          <Link to="#" className="btn btn-default rounded-10">View All Faculty <i className="ion-ios-arrow-thin-right ml-1" /></Link>
         </div>
       </div>
     </div>

@@ -57,19 +57,19 @@
     /* transform: skewX(15deg); */
 }
 #page-gallery-1>.grid>.photo:nth-child(1) {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: left;
 }
 #page-gallery-1>.grid>.photo:nth-child(2) {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: right;
 }
 #page-gallery-1>.grid>.photo:nth-child(3) {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: left;
 }
 #page-gallery-1>.grid>.photo:nth-child(4) {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: right;
 }
 #page-gallery-1>.center-photo {
@@ -85,7 +85,7 @@
     display: block;
     width: 300px;
     height: 300px;
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -103,7 +103,9 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 3em 0px;
-    background: #25508C;
+    background: -moz-linear-gradient(to bottom, #FFFFFF, #0099ff);
+    background: linear-gradient(to bottom, #FFFFFF, #92c0df);
+
 }
 
 #page-gallery .card {
@@ -131,7 +133,7 @@
     top: -20px;
     width: 36px;
     height: 36px;
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -159,36 +161,44 @@
 }
 
 #page-gallery .card:nth-child(1) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m1.jpg);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
 }
 #page-gallery .card:nth-child(2) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
 }
 #page-gallery .card:nth-child(3) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m3.jpg);
 }
 #page-gallery .card:nth-child(4) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m4.jpg);
     background-position: left;
 }
 #page-gallery .card:nth-child(5) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m5.jpg);
     background-position: left;
 }
 #page-gallery .card:nth-child(6) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m6.jpg);
     background-position: left;
 }
 #page-gallery .card:nth-child(7) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m7.jpg);
     background-position: right;
 }
 #page-gallery .card:nth-child(8) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m8.jpg);
     background-position: right;
 }
 #page-gallery .card:nth-child(9) .photo {
-    background-image: url(https://img.myfirstshow.com/uploads/2020/02/Red-Movie-Still.jpg);
+    background-image: url(assets/images/m2.jpg);
     background-position: right;
 }
 
@@ -215,7 +225,7 @@
     padding: 16px;
 }
 #page-start>.photo-block .my-photo {
-    background: url(https://sun9-38.userapi.com/c857016/v857016487/1da1/npX3TXcv_v4.jpg);
+    background: url(https://images.pexels.com/photos/1400141/pexels-photo-1400141.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -273,4 +283,83 @@
 }
 #page-start .links-block>a.link-twitter {
     background: url(https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-64.png) no-repeat 50% / contain;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura');
+
+.byhand {
+    font-family: 'Allura', cursive;
+    font-size: 2rem;
+  }
+
+.about-me_container {
+  background-color: #fff;
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-me_container > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.about-me_item {
+  color: #46353D;
+}
+
+.about-me_item p {
+  text-align: justify;
+}
+
+.about-me_item_1 {
+  background: #fff;
+}
+
+.about-me_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+.about-me_item_2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #46353D;
+  text-align: center;
+  background: #fff;
+}
+.about-me_byhand {
+  text-align: right;
+}
+@media all and (min-width: 240px) {
+  .about-me_image     { width: 180px;}
+}
+@media all and (min-width: 320px) {
+  .about-me_image     { width: 240px;}
+}
+
+@media all and (min-width: 420px) {
+  .about-me_image     { width: 360px;}
+}
+
+@media all and (min-width: 600px) {
+  .about-me_item { flex: 1 0 0; }
+  .about-me_image     { width: 360px;}
+}
+
+@media all and (min-width: 800px) {
+  .about-me_item_2    { flex: 3 0px; }
+  .about-me_item_1    { order: 1; } 
+  .about-me_item_2    { order: 2; }
+  .about-me_image     { width: 240px;}
+}
+
+@media all and (min-width: 1080px) {
+  .about-me_image     { width: 240px;}
 }

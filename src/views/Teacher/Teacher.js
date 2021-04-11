@@ -27,7 +27,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.01s">
             <div className="team_img">
-              <img src="assets/images/team_img1.jpg" alt="team1" />
+              <img src="assets/images/instructor.png" alt="team1" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -44,7 +44,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.02s">
             <div className="team_img">
-              <img src="assets/images/team_img2.jpg" alt="team2" />
+              <img src="assets/images/instructor.png" alt="team2" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -61,7 +61,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
             <div className="team_img">
-              <img src="assets/images/team_img3.jpg" alt="team3" />
+              <img src="assets/images/instructor.png" alt="team3" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -78,7 +78,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
             <div className="team_img">
-              <img src="assets/images/team_img4.jpg" alt="team4" />
+              <img src="assets/images/instructor.png" alt="team4" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -95,7 +95,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.05s">
             <div className="team_img">
-              <img src="assets/images/team_img2.jpg" alt="team5" />
+              <img src="assets/images/instructor.png" alt="team5" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -112,7 +112,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.06s">
             <div className="team_img">
-              <img src="assets/images/team_img6.jpg" alt="team6" />
+              <img src="assets/images/instructor.png" alt="team6" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -129,7 +129,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.07s">
             <div className="team_img">
-              <img src="assets/images/team_img2.jpg" alt="team7" />
+              <img src="assets/images/instructor.png" alt="team7" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>
@@ -146,7 +146,7 @@ const Teacher = () => {
         <div className="col-lg-3 col-sm-6">
           <div className="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.08s">
             <div className="team_img">
-              <img src="assets/images/team_img2.jpg" alt="team8" />
+              <img src="assets/images/instructor.png" alt="team8" />
               <ul className="list_none social_icons social_white">
                 <li><Link to="#"><i className="ion-social-facebook" /></Link></li>
                 <li><Link to="#"><i className="ion-social-twitter" /></Link></li>

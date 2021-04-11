@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyChose = () => {
     return (
-        <section  style={{backgroundImage:'url("assets/images/backgroundour.jpg")',backgroundRepeat:'no-repeat',borderRadius: '20px',backgroundPosition: 'center',backgroundSize: 'cover'}} className="small_pb">
+        <section  style={{backgroundImage:'url("assets/images/kkkk.webp")',backgroundAttachment: 'fixed',backgroundRepeat:'no-repeat',borderRadius: '20px',backgroundPosition: 'center',backgroundSize: 'cover'}} className="small_pb">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-xl-6 col-lg-8">

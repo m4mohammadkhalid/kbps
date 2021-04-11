@@ -9,7 +9,7 @@ import { Dashboard } from './views/AdminPanel/Dashboard'
 import {UserDashboard} from './views/UsersPanel/Dashboard'
 import { GalleyImage } from './views/Gallery';
 import { Event } from './views/Event';
-import { Teacher } from './views/Teacher';
+import { Headmasters, Principal, Tc, Teacher, Vacancies } from './views/Teacher';
 import Facility from './views/Facility/Facility';
 
 
@@ -30,6 +30,12 @@ export const Routes = () => {
         <Route exact path="/gallery" component={GalleyImage} />
         <Route exact path="/event" component={Event} />
         <Route exact path="/teacher" component={Teacher} />
+        <Route exact path="/principal" component={Principal} />
+        <Route exact path="/headmasters" component={Headmasters} />
+        <Route exact path="/vacancies" component={Vacancies} />
+        <Route exact path="/tc" component={Tc} />
+
+
         <Route exact path="/facility" component={Facility} />
 
 

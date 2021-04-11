@@ -691,6 +691,7 @@ button:focus {
 }
 .overlay_bg_danger_90:before {
 	background-color: rgba(245, 87, 108, 0.90);
+	border-radius: 30px;
 }
 .overlay_bg_danger_80:before {
 	background-color: rgba(245, 87, 108, 0.80);
@@ -718,6 +719,7 @@ button:focus {
 }
 .overlay_bg_light_green_90:before {
 	background-color: rgba(179, 211, 105, 0.90);
+	border-radius: 30px;
 }
 .overlay_bg_light_green_80:before {
 	background-color: rgba(179, 211, 105, 0.80);
@@ -745,6 +747,7 @@ button:focus {
 }
 .overlay_bg_default_90:before {
 	background-color: rgba(255, 188, 9, 0.90);
+	border-radius: 30px;
 }
 .overlay_bg_default_80:before {
 	background-color: rgba(255, 188, 9, 0.80);

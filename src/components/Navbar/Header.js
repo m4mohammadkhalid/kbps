@@ -233,69 +233,26 @@ const Header = () => {
         </div>
       </div>
       <header className="header_wrap dark_skin">
-        <div className="top-header bg_blue_dark2 light_skin">
+        <div style={{backgroundImage: 'url("/assets/images/white_wall.png")', backgroundRepeat:'no-repeat',backgroundPosition: 'center',backgroundSize: 'cover'}} className="top-header bg_blue_dark2 light_skin">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <ul className="contact_detail list_none text-center text-md-left">
+              <div  className="col-md-12">
+                <ul  className="contact_detail list_none text-center text-md-center">
                   <li>
                     <Link to="#">
-                      <i className="ti-mobile" />
-                      +91-9911228484
+                    <img style={{width:'180px',height:'140px'}} src="assets/images/kbps.png"  alt="khalid" />
+                     <h2 style={{color:'black'}}>KBPS School Palam</h2>
                     </Link>
-                  </li>
-                  <li>
+                  </li><br />
+                  {/* <li>
                     <Link to="#">
                       <i className="ti-email" />
                       codesparrow@gmail.com
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-              {/* <div className="col-md-6">
-                <div className="d-flex flex-wrap align-items-center justify-content-md-end justify-content-center mt-2 mt-md-0">
-                  <ul className="list_none social_icons social_white text-center text-md-right">
-                    <li>
-                      <Link to="#">
-                        <i className="ion-social-facebook" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ion-social-twitter" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ion-social-googleplus" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ion-social-youtube-outline" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">
-                        <i className="ion-social-instagram-outline" />
-                      </Link>
-                    </li>
-                  </ul>
-                  <ul className="list_none header_list border_list ml-1">
-                    <li>
-                      <Link to="#" data-toggle="modal" data-target="#Login">
-                        Login
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#" className="btn btn-default btn-sm rounded-0">
-                        Apply For Vacancy
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-           */}
+        
             </div>
           </div>
         </div>
@@ -363,13 +320,25 @@ const Header = () => {
 
                 </li>
                 <li className="dropdown">
-                  <NavLink activeClassName="active_class" className="nav-link" to="/teacher">
-                    Teacher
+                  <NavLink activeClassName="active_class" className="dropdown-toggle nav-link" to="/#!">
+                    Administration
                   </NavLink>
+                  <div class="dropdown-menu">
+                            <ul> 
+                                <li><NavLink className="dropdown-item nav-link nav_item" to="/principal">Principal</NavLink></li> 
+                                <li><NavLink className="dropdown-item nav-link nav_item" to="/headmasters">Headmasters</NavLink></li>
+                                <li><NavLink className="dropdown-item nav-link nav_item" to="/tc">School Transfer<br /> Certificates</NavLink></li>
+                                <li><NavLink className="dropdown-item nav-link nav_item" to="/teacher">Administrative Staff</NavLink></li>
+                                <li><NavLink className="dropdown-item nav-link nav_item" to="/vacancies">Vacancies</NavLink></li>
+
+
+
+                            </ul>
+                        </div>
                 </li>
                 <li className="dropdown">
                   <NavLink activeClassName="active_class" className="nav-link" to="/facility">
-                    Facility & Infrastructure
+                    Facility
                   </NavLink>
                 </li>
                 <li>
