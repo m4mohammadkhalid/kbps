@@ -14,6 +14,7 @@ import { Footer } from '../../components/Footer';
 import TopStudent from './HomePage/TopStudent'
 import SchoolTime from './HomePage/SchoolTime'
 import OuRTopper from './HomePage/OuRTopper'
+import { Test } from '../Teacher'
 
 
 
@@ -23,6 +24,7 @@ const HomePage = () => {
         <NavBar />
             <Slider />
             <SchoolTime />
+            <Test />
             <TopStudent />
             <WhyChose />
             <OuRTopper />

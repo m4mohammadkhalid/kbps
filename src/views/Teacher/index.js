@@ -3,4 +3,5 @@ export { default as Principal } from './Principal';
 export { default as Headmasters } from './Headmasters';
 export { default as Vacancies } from './Vacancies';
 export { default as Tc } from './Tc';
+export { default as Test } from './Test';
 

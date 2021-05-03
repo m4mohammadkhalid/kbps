@@ -758,6 +758,23 @@ th,.table-time{color: #333333;font-family: 'Museo-300';background-color: #fff}
     height: 240px;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .navbar-brandd {
+    display: none;
+  }
+}
+@media (min-width: 200px) and (max-width: 900px) {
+  .navbar-branddd {
+    display: none;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1000px) {
+  .khalidmedia {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-nav1 {
     background-color:#6c757dbd;
